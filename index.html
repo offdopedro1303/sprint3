@@ -36,35 +36,29 @@
             justify-content: center;
             align-items: center;
             height: 20px; /* ajuste conforme necessário */
-
         }
         .navbar .logo img {
             display: flex;
             justify-content:right;
             align-items:baseline;
             height: 20px; /* ajuste conforme necessário */
-
         }
-
         .navbar .login {
             float: right;
             display: flex; /* Adicionado para alinhar os itens na mesma linha */
             align-items: center; /* Alinha verticalmente com a logo */
             margin-right: 1px;
         }
-
         .login img {
             height: 30px; /* Ajuste conforme necessário */
             margin-left: 10px; /* Ajuste conforme necessário */
             margin-top: -50px;
         }
-
         .subnav {
             display: none;
             background-color: #F4F0D8;
             overflow: hidden;
         }
-
         .subnav a {
             float: left;
             display: block;
@@ -73,8 +67,6 @@
             padding: 14px 16px;
             text-decoration: none;
         }
-
-
         .dropdown:hover .subnav {
             display: block;
         }
@@ -84,39 +76,124 @@
             justify-content: space-around;
             padding: 20px;
         }
-
         .card {
             width: 350px;
             margin: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 40px;
         }
-
         .card img {
-            width: 100%;
+            width: 393px;
+            height: 459px;
+            margin-top: -74px;
             height: auto;
-            border-radius: 40px;
+            border-radius: 25px;
+        }
+        .card-body {
+            padding: 60px;
+        }
+        .card {
+            font-family: inherit;
+            font-size: 18px;
+            background: linear-gradient(to bottom, #EEEEEE 0%,#F4F0D8 100%);
+            color: white;
+            padding: 0.8em 1.2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
         }
 
-        .card-body {
-            padding: 60px;}
+        .card:active {
+            transform: scale(0.95);
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .card span {
+            display: block;
+            margin-left: 0.4em;
+            transition: all 0.3s;
+        }
+        .card svg {
+            width: 18px;
+            height: 18px;
+            fill: white;
+            transition: all 0.3s;
+        }
+        .card .svg-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin-right: 0.5em;
+            transition: all 0.3s;
+        }
+        .card:hover .svg-wrapper {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .card:hover svg {
+            transform: rotate(45deg);
+        }
+
 
         .fotologo{
             background-image: url(../sprint3/fundo1.png);
             height: 80vh;
-            background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
         }
         .container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin-top: 38px;
-
-}
-        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            margin-top: 38px;
+        }
+        .button {
+            position: relative;
+            overflow: hidden;
+            height: 3rem;
+            padding: 0 2rem;
+            border-radius: 1.5rem;
+            background: #544013;
+            background-size: 400%;
+            color: #fff;
+            border: none;
+        }
+        .button:hover::before {
+            transform: scaleX(1);
+        }
+        .button-content {
+            position: relative;
+            z-index: 1;
+        }
+        .button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            width: 100%;
+            height: inherit;
+            border-radius: inherit;
+            background: #3F6CF4;
+            transition: all 0.475s;
+        }
+        footer{
+            background-color: #F4F0D8;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 <body>
@@ -144,24 +221,24 @@
 
 <div class="card-container">
     <div class="card">
-        <img src="saolourenco.webp" alt="Imagem 1">
         <div class="card-body">
+            <img src="saolourenco.webp" alt="Imagem 1">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
     </div>
 
     <div class="card">
-        <img src="piscina.webp" alt="Imagem 2">
         <div class="card-body">
+            <img src="piscina.webp" alt="Imagem 2">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
     </div>
 
     <div class="card">
-        <img src="sala.webp" alt="Imagem 3">
         <div class="card-body">
+            <img src="sala.webp" alt="Imagem 3">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
         </div>
@@ -169,30 +246,33 @@
 </div>
 <section class="fotologo">
     <div class="container">
-      <img src="ararazoo1.png" width="800px">      
-    </div>
+      <img src="ararazoo1.png" width="800px"> 
+      <button class="button">
+        <span class="button-content">Saber Mais</span>
+    </button>   
+    </div>  
   </section>
 
   <div class="card-container">
     <div class="card">
-        <img src="beliche.webp" alt="Imagem 1">
         <div class="card-body">
+            <img src="beliche.webp" alt="Imagem 1">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
     </div>
 
     <div class="card">
-        <img src="cozinha.webp" alt="Imagem 2">
         <div class="card-body">
+            <img src="cozinha.webp" alt="Imagem 2">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
     </div>
 
     <div class="card">
-        <img src="espaco.webp" alt="Imagem 3">
         <div class="card-body">
+            <img src="espaco.webp" alt="Imagem 3">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
         </div>
@@ -200,27 +280,32 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="banheiro.webp" alt="Imagem 1">
             <div class="card-body">
+                <img src="banheiro.webp" alt="Imagem 1">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
         </div>
     
         <div class="card">
-            <img src="quadra.webp" alt="Imagem 2">
             <div class="card-body">
+                <img src="quadra.webp" alt="Imagem 2">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
         </div>
     
         <div class="card">
-            <img src="piscinas1.webp" alt="Imagem 3">
             <div class="card-body">
+                <img src="piscinas1.webp" alt="Imagem 3">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             </div>
         </div>
+
+        <footer>
+            <p>&copy; 2023 Nome da Sua Empresa. Todos os direitos reservados.</p>
+        </footer>
+        
 </body>
 </html>
