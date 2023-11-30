@@ -9,25 +9,9 @@
 </head>
 <body>
 
-<div class="navbar dropdown">
-    <img src="../sprint3/img/Logo (2).png" alt="Logo">
-
-    <div class="logo">
-        <img src="../sprint3/img/Logo (3).png">
-    </div>
-
-    <div class="login">
-        <img src="../sprint3/img/login.png" alt="Login">
-    </div>
-
-    <div class="subnav">
-        <a href="#item1"><img src="../sprint3/img/piscinaslogo.png"></a>
-        <a href="#item2"><img src="../sprint3/img/chale.png"></a>
-        <a href="#item3"><img src="../sprint3/img/hoteis.png"></a>
-        <a href="#item4"><img src="../sprint3/img/montanhas.png"></a>
-        <a href="#item5"><img src="../sprint3/img/beiramar.png"></a>
-    </div>
-</div>
+<?php
+  include_once("templates/header.php");
+?>
 
 
 <div class="card-container">
