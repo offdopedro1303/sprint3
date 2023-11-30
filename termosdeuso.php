@@ -197,7 +197,7 @@ O uso do site é por sua conta e risco. Não garantimos que o site estará livre
     </button>
     </a>
     <footer>
-        <p>&copy; [Ano] [Nome da Empresa]. Todos os direitos reservados.</p>
+        <p>&copy; [2023] [Aconchequei]. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
