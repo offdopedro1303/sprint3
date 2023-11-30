@@ -12,21 +12,18 @@
   <header>
   <div class="navbar dropdown">
     <img src="../sprint3/img/Logo (2).png" alt="Logo">
-
     <div class="logo">
         <img src="../sprint3/img/Logo (3).png">
     </div>
-
     <div class="login">
         <img src="../sprint3/img/login.png" alt="Login">
     </div>
-
     <div class="subnav">
-        <a href="#item1"><img src="../sprint3/img/piscinaslogo.png"></a>
-        <a href="#item2"><img src="../sprint3/img/chale.png"></a>
-        <a href="#item3"><img src="../sprint3/img/hoteis.png"></a>
-        <a href="#item4"><img src="../sprint3/img/montanhas.png"></a>
-        <a href="#item5"><img src="../sprint3/img/beiramar.png"></a>
+        <a href="../sprint3/piscinas/piscinas.php"><img src="../sprint3/img/piscinaslogo.png"></a>
+        <a href="../sprint3/beiramar/beiramar.php"><img src="../sprint3/img/beiramar.png"></a>
+        <a href="../sprint3/hoteis/hoteis.php"><img src="../sprint3/img/hoteis.png"></a>
+        <a href="../sprint3/chales/chale.php"><img src="../sprint3/img/chale.png"></a>
+        <a href="../sprint3/montanhas/montanhas.php"><img src="../sprint3/img/montanhas.png"></a>
     </div>
-</div>
+  </div>
   </header>
