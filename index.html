@@ -31,11 +31,13 @@
             text-decoration: none;
             font-size: 1.5em;
         }
+
         .navbar .logo img {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 20px; /* ajuste conforme necessário */
+
         }
         .navbar .logo img {
             display: flex;
@@ -70,6 +72,7 @@
         .dropdown:hover .subnav {
             display: block;
         }
+
         .card-container {
             display: flex;
             flex-wrap: wrap;
@@ -81,6 +84,12 @@
             margin: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 40px;
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff; /* Fundo branco */
+            text-align: center; /* Centraliza o conteúdo */
         }
         .card img {
             width: 393px;
@@ -110,6 +119,7 @@
             transform: translateY(-3px);
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
         }
+
 
         .card:active {
             transform: scale(0.95);
@@ -199,6 +209,25 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        .card-body {
+            padding: 15px;
+        }
+
+        .card h5 {
+            margin-bottom: 10px; /* Espaçamento inferior para o título */
+        }
+
+        .card p {
+            font-size: 20px;
+        }
+
+        .card p img {
+            width: 15%;
+        }
+
+        .card p a {
+            margin-left: 80px;
+        }
     </style>
 </head>
 <body>
@@ -230,6 +259,8 @@
             <img src="saolourenco.webp" alt="Imagem 1">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Chácara São Lorenço</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
     </div>
 
@@ -238,14 +269,18 @@
             <img src="piscina.webp" alt="Imagem 2">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Casa com Piscina Maranhão</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
     </div>
-
+<!-- teste -->
     <div class="card">
         <div class="card-body">
             <img src="sala.webp" alt="Imagem 3">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
         </div>
     </div>
 </div>
