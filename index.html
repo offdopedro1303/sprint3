@@ -30,19 +30,12 @@
             text-decoration: none;
             font-size: 1.5em;
         }
+
         .navbar .logo img {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 20px; /* ajuste conforme necessário */
-
-        }
-        .navbar .logo img {
-            display: flex;
-            justify-content:right;
-            align-items:baseline;
-            height: 20px; /* ajuste conforme necessário */
-
         }
 
         .navbar .login {
@@ -73,10 +66,10 @@
             text-decoration: none;
         }
 
-
         .dropdown:hover .subnav {
             display: block;
         }
+
         .card-container {
             display: flex;
             flex-wrap: wrap;
@@ -89,6 +82,8 @@
             height: 200px;
             margin: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff; /* Fundo branco */
+            text-align: center; /* Centraliza o conteúdo */
         }
 
         .card img {
@@ -97,15 +92,22 @@
         }
 
         .card-body {
-            padding: 15px;}
+            padding: 15px;
+        }
 
-        .card p{
+        .card h5 {
+            margin-bottom: 10px; /* Espaçamento inferior para o título */
+        }
+
+        .card p {
             font-size: 20px;
         }
-        .card p img{
+
+        .card p img {
             width: 15%;
         }
-        .card p a{
+
+        .card p a {
             margin-left: 80px;
         }
     </style>
@@ -146,7 +148,7 @@
         <img src="imagem2.jpg" alt="Imagem 2">
         <div class="card-body">
             <h5 class="card-title">Casa com Piscina Maranhão</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
     </div>
 
@@ -154,7 +156,7 @@
         <img src="imagem3.jpg" alt="Imagem 3">
         <div class="card-body">
             <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
         </div>
     </div>
 </div>
