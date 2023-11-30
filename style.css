@@ -380,11 +380,6 @@ body {
     background: #3F6CF4;
     transition: all 0.475s;
 }
-footer{
-    background-color: #F4F0D8;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .card-body {
     padding: 15px;
 }
