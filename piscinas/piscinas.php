@@ -2,22 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
 </head>
 <body>
 
 <?php
-  include_once("offdopedro1303/sprint3/templates/header.php");
+  include_once("../templates/header.php");
 ?>
 
 
 <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/saolourenco.webp" alt="Imagem 1">
+            <img src="../img/saolourenco.webp" alt="Imagem 1">
             <h5 class="card-title">Chácara São Lorenço</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
