@@ -7,7 +7,7 @@ body {
 .navbar {
     background-color: #544013;
     overflow: hidden;
-    display: block;
+display: block;
 }
 
 .navbar img {
@@ -74,8 +74,8 @@ body {
     align-items: center;
     padding: 10px 15px;
     gap: 15px;
-    background-color: #007ACC;
-    outline: 3px #007ACC solid;
+    background-color: #F4F0D8;
+    outline: 3px #F4F0D8 solid;
     outline-offset: -3px;
     border-radius: 5px;
     border: none;
@@ -103,10 +103,8 @@ body {
   }
   
   .button1:hover svg img {
-    fill: #007ACC;
+    fill: #192127;
   }
-
-  
 
 
 /* ---------------------------------------------------------- */
