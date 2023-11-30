@@ -67,6 +67,11 @@ body {
     display: block;
 }
 
+
+/* ---------------------------------------------------------- */
+
+
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -110,8 +115,6 @@ body {
     transform: translateY(-3px);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
-
-
 .card:active {
     transform: scale(0.95);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
@@ -150,6 +153,188 @@ body {
 .card-title{
     color: #544013;
 }
+
+
+/* ---------------------------------------------------------- */
+
+
+
+.card-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card1 {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 370px;
+    height: 440px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fundo branco */
+    text-align: center; /* Centraliza o conteúdo */
+}
+.card1 img {
+    width: 413px;
+    margin-top: -85px;
+    height: auto;
+    border-radius: 25px;
+}
+.card-body1 {
+    padding: 60px;
+}
+.card1 {
+    font-family: inherit;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #EEEEEE 0%,#F4F0D8 100%);
+    color: white;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+.card1:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.card1:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.card1 span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s;
+}
+.card1 svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    transition: all 0.3s;
+}
+.card1 .svg-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0.5em;
+    transition: all 0.3s;
+}
+.card1:hover .svg-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.card1:hover svg {
+    transform: rotate(45deg);
+}
+.card1-text{
+    color:#544013;
+}
+.card1-title{
+    color: #544013;
+}
+
+
+
+/* ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- */
+
+
+
+.card-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card2 {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 370px;
+    height: 440px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fundo branco */
+    text-align: center; /* Centraliza o conteúdo */
+}
+.card2 img {
+    width: 413px;
+    margin-top: -85px;
+    height: auto;
+    border-radius: 25px;
+}
+.card-body2 {
+    padding: 60px;
+}
+.card2 {
+    font-family: inherit;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #EEEEEE 0%,#F4F0D8 100%);
+    color: white;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+.card2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.card2:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.card2 span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s;
+}
+.card2 svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    transition: all 0.3s;
+}
+.card2 .svg-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0.5em;
+    transition: all 0.3s;
+}
+.card2:hover .svg-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.card2:hover svg {
+    transform: rotate(45deg);
+}
+.card2-text{
+    color:#544013;
+}
+.card2-title{
+    color: #544013;
+}
+
+
+
+/* ---------------------------------------------------------- */
+
 
 .fotologo{
     background-image: url(../sprint3/fundo1.png);
@@ -194,11 +379,6 @@ body {
     border-radius: inherit;
     background: #3F6CF4;
     transition: all 0.475s;
-}
-footer{
-    background-color: #F4F0D8;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .card-body {
     padding: 15px;
