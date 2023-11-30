@@ -100,8 +100,9 @@
         </div>
 
         <footer>
-            <p>&copy; 2023 Nome da Sua Empresa. Todos os direitos reservados.</p>
+            <?php
+            include_once("templates/footer.php");
+            ?>
         </footer>
-        
 </body>
 </html>
