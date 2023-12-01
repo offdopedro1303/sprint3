@@ -8,7 +8,8 @@
           <img src="../sprint3/img/Logo (3).png">
       </div>
       <div class="login">
-          <img src="../sprint3/img/login.png" alt="Login">
+          <a href="../sprint3/login.php"><img src="img/login.png"></a>
+         
       </div>
       <div class="subnav">
           <a href="../sprint3/piscinas.php"><img src="img/piscinaslogo.png"></a>
