@@ -438,3 +438,18 @@ display: block;
 .card p a {
     margin-left: 120px;
 }
+.containerprin img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.containerprin{
+    justify-content: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.texto p{
+    margin: 40px;
+}
