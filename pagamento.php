@@ -5,8 +5,30 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
+
 </head>
+<style>
+    .oppagamento{
+        display: flex;
+        margin-left: 120px;
+    }
+    .oppagamento img{
+        width: 50%;
+        margin: none;
+    }
+    #pix{
+        margin-top: 100px;
+    }
+    #boleto{
+        margin-top: 100px;
+    }
+    #cartao 
+    .oppagamento button{
+    
+        width: 270px;
+    }
+
+</style>
 <body>
 
 <?php
@@ -14,7 +36,7 @@
 ?>
 
 
-<div class="card-container">
+<div class="card-container"> 
     <div class="card">
         <div class="card-body">
             <img src="img/saolourenco.webp" alt="Imagem 1">
@@ -40,7 +62,7 @@
     </div>
 </div>
 <br>
-  <div class="card-container">
+  <div class="card-container" id="cardContainer">
     <div class="card">
         <div class="card-body">
             <img src="img/beliche.webp" alt="Imagem 3">
@@ -68,7 +90,14 @@
 <BR>
 <BR>
 <div class="mostrarmais-container">
-    <button class="mostrarmais">MOSTRAR MAIS</button>
+    <button class="mostrarmais" onclick="showMoreCards()">MOSTRAR MAIS</button>
+</div>
+<div class="oppagamento">
+    <div id="pix"><img src="img/pix.svg">
+    <button>PIX</button>
+    </div>
+    <div id="cartao"><img src="img/cartao.webp"><button>CARTÃO</button></div>
+    <div id="boleto"><img src="img/boleto.webp"><button>BOLETO</button></div>
 </div>
         <footer>
             <?php
