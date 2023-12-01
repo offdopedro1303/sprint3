@@ -43,6 +43,43 @@
         font-weight: bold;
         border:none;
     }
+    #confirmacao {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    height: 460px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+#confirmacao h1 {
+    color: #333;
+    font-size: 40px;
+}
+
+#confirmacao p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#confirmacao span {
+    font-weight: bold;
+    color: #FFBC49;
+}
+#containerconf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+#containerconf img{
+    height: 500px;
+    width: 30%;
+}
+
 
 </style>
 <body>
@@ -51,63 +88,20 @@
   include_once("templates/header.php");
 ?>
 
-
-<div class="card-container"> 
-    <div class="card">
-        <div class="card-body">
-            <img src="img/saolourenco.webp" alt="Imagem 1">
-            <h5 class="card-title">Chácara São Lorenço</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-body">
-            <img src="img/piscina.webp" alt="Imagem 2">
-            <h5 class="card-title">Casa com Piscina Maranhão</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
-        </div>
-    </div>
-<!-- teste -->
-    <div class="card">
-        <div class="card-body">
-            <img src="img/sala.webp" alt="Imagem 3">
-            <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
-        </div>
-    </div>
-</div>
-<br>
-  <div class="card-container" id="cardContainer">
-    <div class="card">
-        <div class="card-body">
-            <img src="img/beliche.webp" alt="Imagem 3">
-            <h5 class="card-title">Casa em Suzano</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-body">
-            <img src="img/cozinha.webp" alt="Imagem 3">
-            <h5 class="card-title">Chácara em Caraguatatininga</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-body">
-            <img src="img/espaco.webp" alt="Imagem 3">
-            <h5 class="card-title">Rio de Janeiro House</h5>
-            <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
-        </div>
-    </div>
+<DIV ID="containerconf">
+<div id="confirmacao" style="text-align: center;">
+    <h1>Reserva Confirmada!</h1>
+    <br>
+    <br>
+    <p>Data de Chegada: <span id="chegadaReservaData"></span></p>
+    <p>Data de Saída: <span id="saidaReservaData"></span></p>
+    <p>Quantidade de Hóspedes: <span id="quantidadeHospedes"></span></p>
+    <p>Total de dias: <span id="totalDias"></span></p>
+    <p>Taxa de Serviço: R$<span id="taxaServico"></span></p>
+    <p>Valor Total: R$<span id="valorTotal"></span></p>
   </div>
-<BR>
-<BR>
-<div class="mostrarmais-container">
-    <button class="mostrarmais" onclick="showMoreCards()">MOSTRAR MAIS</button>
-</div>
+  <IMG src="img/saolourenco.webp">
+</DIV>
 <div class="oppagamento">
     <div id="pix"><img src="img/pix.svg">
     <button>PIX</button>
@@ -115,6 +109,13 @@
     <div id="cartao"><img src="img/cartao.webp"><button>CARTÃO</button></div>
     <div id="boleto"><img src="img/boleto.webp"><button>BOLETO</button></div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<Br>
+<br>
+<br>
         <footer>
             <?php
             include_once("templates/footer.php");
