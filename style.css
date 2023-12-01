@@ -438,3 +438,24 @@ display: block;
 .card p a {
     margin-left: 120px;
 }
+
+.mostrarmais-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.mostrarmais {
+    padding: 10px 20px;
+    background-color: #544013;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mostrarmais:hover {
+    background-color: #3F6CF4;
+}
