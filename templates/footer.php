@@ -4,7 +4,7 @@
         <div class="footer">
             <div class="pt1">
                 <h2>Atendimento</h2>
-                <p>Central de Ajuda</p>
+                <a href="centraldeajuda.php"><p>Central de Ajuda</p></a>
                 <p>Blog</p>
             </div>
             <div class="pt2">
@@ -41,5 +41,9 @@
         justify-content: center;
         background-color: #544013;
         color: wheat;
+    }
+    a{
+        text-decoration:  none;
+        color: #544013;
     }
 </style>
