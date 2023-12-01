@@ -43,6 +43,20 @@
 .mostrarmais:hover {
     background-color: #3F6CF4;
 }
+.comentarios{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 12em;
+}
+.com1{
+    color:#3F6CF4;
+    width: 100px;
+    
+}
+.com2{
+    color:#3F7CF4;
+    width: 100px;
+}
 </style>
 <body>
 
@@ -59,7 +73,8 @@
     <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
 </div>
 <div class="comentarios">
-    
+    <div class="com1">aaaaa</div>
+    <div class="com2">aaaaaa</div>
 </div>
 <div class="areacompra">
     

@@ -18,14 +18,30 @@
     }
     #pix{
         margin-top: 100px;
+
     }
     #boleto{
         margin-top: 100px;
     }
-    #cartao 
+    #boleto button{
+        margin-left: -10PX;
+        margin-top: 70px;
+    }
+    #cartao button{
+        margin-top: -100px;
+    }
+    #pix button{
+        margin-top: 80px;
+    }
+
     .oppagamento button{
-    
-        width: 270px;
+        margin: 45px;
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #FFBC49;
+        font-weight: bold;
+        border:none;
     }
 
 </style>
