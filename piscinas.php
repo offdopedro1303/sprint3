@@ -67,13 +67,42 @@
   </div>
 <BR>
 <BR>
+<div class="card-container" id="cardContainer">
+
+    <!-- Cartões adicionados pelo botão MOSTRAR MAIS serão inseridos aqui -->
+</div>
 <div class="mostrarmais-container">
-    <button class="mostrarmais">MOSTRAR MAIS</button>
+    <button class="mostrarmais" onclick="showMoreCards()">MOSTRAR MAIS</button>
 </div>
         <footer>
             <?php
             include_once("templates/footer.php");
             ?>
         </footer>
+        <script>
+    // script.js
+
+    let cardContainer = document.getElementById("cardContainer");
+
+function showMoreCards() {
+    // Create new card elements and append them to the card container
+    for (let i = 0; i < 3; i++) {
+        let newCard = document.createElement("div");
+        newCard.classList.add("card");
+        newCard.innerHTML = `
+            <div class="card-body">
+                <img src="img/novaimagem${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <h5 class="card-title">Novo Card ${i+1}</h5>
+                <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
+            </div>
+        `;
+        cardContainer.appendChild(newCard);
+    }
+
+    // Ocultar o botão MOSTRAR MAIS
+    document.querySelector(".mostrarmais-container").style.display = "none";
+}
+</script>
+
 </body>
 </html>

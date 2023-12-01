@@ -4,9 +4,9 @@
     <header>
     <div class="navbar">
       <div class="subnav">
-        <img src="../sprint3/img/Logo (2).png" alt="Logo">
+        <a href="index.php"><img src="../sprint3/img/Logo (2).png" alt="Logo"></a>
         <div class="logo">
-            <img src="../sprint3/img/Logo (3).png">
+            <a href="#"><img src="../sprint3/img/Logo (3).png"></a>
         </div>
         <div class="login">
             <img src="../sprint3/img/login.png" alt="Login">
@@ -24,6 +24,10 @@
     <br>
     </header>
     <style>
+        html {
+    scroll-behavior: smooth; /* Permite transição suave quando se clica Nav a*/
+   
+}
       .navbar {
         background-color: #544013;
         }

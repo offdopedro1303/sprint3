@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="style1.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<?php
+  include_once("templates/header.php");
+?>
 <style>
 .texto p{
     margin: 0px 120px;
@@ -60,9 +63,6 @@
 </style>
 <body>
 
-<?php
-  include_once("templates/header.php");
-?>
 <div class="container">
 <img src="img/saolourenco.webp" alt="Imagem 1">
 </div>
