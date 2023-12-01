@@ -46,7 +46,7 @@
     #confirmacao {
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    border-radius: 40px 0px 0px 40px;
     padding: 20px;
     margin: 20px auto;
     width: 70%;
@@ -78,6 +78,7 @@
 #containerconf img{
     height: 500px;
     width: 30%;
+    border-radius: 0px 40px 40px 0px;
 }
 
 
@@ -122,4 +123,30 @@
             ?>
         </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script>
+    const chegadaReserva = JSON.parse(localStorage.getItem("chegadaReserva")) || {};
+    const saidaReserva = JSON.parse(localStorage.getItem("saidaReserva")) || {};
+    const quantidadeHospedes = localStorage.getItem("quantidadeHospedes") || 1;
+
+    const dataChegada = new Date(chegadaReserva.data);
+    const dataSaida = new Date(saidaReserva.data);
+
+    const diffEmMilissegundos = dataSaida - dataChegada;
+    const diffEmDias = Math.ceil(diffEmMilissegundos / (1000 * 60 * 60 * 24));
+    const taxaServico = 250;
+    const valorTotal = diffEmDias * 100 + taxaServico;
+
+    const formatter = new Intl.DateTimeFormat('pt-BR');
+    const chegadaFormatada = formatter.format(dataChegada);
+    const saidaFormatada = formatter.format(dataSaida);
+
+    document.getElementById("chegadaReservaData").textContent = chegadaFormatada || "Não disponível";
+    document.getElementById("saidaReservaData").textContent = saidaFormatada || "Não disponível";
+    document.getElementById("quantidadeHospedes").textContent = quantidadeHospedes || 1;
+    document.getElementById("totalDias").textContent = diffEmDias;
+    document.getElementById("taxaServico").textContent = taxaServico;
+    document.getElementById("valorTotal").textContent = valorTotal;
+  </script>
+
 </html>

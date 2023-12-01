@@ -8,6 +8,9 @@
 <?php
   include_once("templates/header.php");
 ?>
+ <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <style>
 .texto p{
     margin: 0px 120px;
@@ -60,6 +63,40 @@
     color:#3F7CF4;
     width: 100px;
 }
+    label {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .datepicker {
+      font-size: 16px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #quantidadeHospedes {
+      font-size: 16px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #btnReservar {
+      font-size: 16px;
+      padding: 10px;
+      background-color: #FFBC49;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
 </style>
 <body>
 
@@ -72,13 +109,26 @@
     <br>
     <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
 </div>
+
+<div style="text-align: center;">
+    <label for="datepickerChegada">Data de Chegada:</label>
+    <input type="text" id="datepickerChegada" class="datepicker" readonly>
+
+    <label for="datepickerSaida">Data de Saída:</label>
+    <input type="text" id="datepickerSaida" class="datepicker" readonly>
+
+    <label for="quantidadeHospedes">Quantidade de Hóspedes:</label>
+    <input type="number" id="quantidadeHospedes" min="1" value="1">
+
+    <button id="btnReservar">Reservar</button>
+  </div>
+
 <div class="comentarios">
     <div class="com1">aaaaa</div>
     <div class="com2">aaaaaa</div>
 </div>
-<div class="areacompra">
-    
-</div>
+
+
 
 <br>
   <div class="card-container">
@@ -117,4 +167,42 @@
             ?>
         </footer>
 </body>
+<script>
+    $(function() {
+      $("#datepickerChegada").datepicker({
+        dateFormat: 'dd/mm/yy',
+        dayNames: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'],
+        dayNamesMin: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
+        monthNames: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+        monthNamesShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+        nextText: 'Próximo',
+        prevText: 'Anterior',
+      });
+
+      $("#datepickerSaida").datepicker({
+        dateFormat: 'dd/mm/yy',
+        dayNames: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'],
+        dayNamesMin: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
+        monthNames: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+        monthNamesShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+        nextText: 'Próximo',
+        prevText: 'Anterior',
+      });
+
+      $("#btnReservar").on("click", function() {
+        const chegadaSelecionada = $("#datepickerChegada").datepicker("getDate");
+        const saidaSelecionada = $("#datepickerSaida").datepicker("getDate");
+        const quantidadeHospedes = $("#quantidadeHospedes").val();
+
+        const chegadaFormatada = $.datepicker.formatDate('mm/dd/yy', chegadaSelecionada);
+        const saidaFormatada = $.datepicker.formatDate('mm/dd/yy', saidaSelecionada);
+
+        localStorage.setItem("chegadaReserva", JSON.stringify({ data: chegadaFormatada, valor: 100 }));
+        localStorage.setItem("saidaReserva", JSON.stringify({ data: saidaFormatada, valor: 100 }));
+        localStorage.setItem("quantidadeHospedes", quantidadeHospedes);
+
+        window.location.href = "pagamento.php";
+      });
+    });
+  </script>
 </html>
