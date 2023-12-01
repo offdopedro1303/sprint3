@@ -20,8 +20,6 @@
                 <p>(11)0000-0000</p>
             </div>
         </div>
-        <br>
-        <br>
         <div class="footer2">
             <p>&copy; [2023] [Aconchequei]. Todos os direitos reservados.</p>
         </div>
@@ -32,13 +30,16 @@
     .footer{
         display: flex;
         justify-content: center;
-        gap: 25%;
-        color: rgba(84, 64, 19, 1);
+        gap: 25%; 
+        background-color: wheat;
+        color: #544013;
+        
         
     }
     .footer2{
         display: flex;
         justify-content: center;
-     
+        background-color: #544013;
+        color: wheat;
     }
 </style>
