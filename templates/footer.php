@@ -4,20 +4,18 @@
         <div class="footer">
             <div class="pt1">
                 <h2>Atendimento</h2>
-                <p>Central de Ajuda</p>
-                <p>Cancelamento</p>
+                <a href="centraldeajuda.php"><p>Central de Ajuda</p></a>
                 <p>Blog</p>
             </div>
             <div class="pt2">
                 <h2>Aconcheguei</h2>
-                <p>Colaboradores
-                    AraraZoll </p>
+                <p>Time Scrum</p>
+                    <p>AraraZoll</p>
             </div>
             <div class="pt3">
                 <h2>Contato</h2>
-                <p>email@email.com </p>
-                <p>(11)99999-9999</p>
-                <p>(11)0000-0000</p>
+                <p>acon_cheguei@hotel.com </p>
+                <p>(11)82763-0296</p>
             </div>
         </div>
         <div class="footer2">
@@ -33,6 +31,8 @@
         gap: 25%; 
         background-color: wheat;
         color: #544013;
+        text-align: center
+        ;
         
         
     }
@@ -41,5 +41,9 @@
         justify-content: center;
         background-color: #544013;
         color: wheat;
+    }
+    a{
+        text-decoration:  none;
+        color: #544013;
     }
 </style>

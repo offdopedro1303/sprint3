@@ -5,8 +5,46 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
+
 </head>
+<style>
+    .oppagamento{
+        display: flex;
+        margin-left: 120px;
+    }
+    .oppagamento img{
+        width: 50%;
+        margin: none;
+    }
+    #pix{
+        margin-top: 100px;
+
+    }
+    #boleto{
+        margin-top: 100px;
+    }
+    #boleto button{
+        margin-left: -10PX;
+        margin-top: 70px;
+    }
+    #cartao button{
+        margin-top: -100px;
+    }
+    #pix button{
+        margin-top: 80px;
+    }
+
+    .oppagamento button{
+        margin: 45px;
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #FFBC49;
+        font-weight: bold;
+        border:none;
+    }
+
+</style>
 <body>
 
 <?php
@@ -14,7 +52,7 @@
 ?>
 
 
-<div class="card-container">
+<div class="card-container"> 
     <div class="card">
         <div class="card-body">
             <img src="img/saolourenco.webp" alt="Imagem 1">
@@ -40,7 +78,7 @@
     </div>
 </div>
 <br>
-  <div class="card-container">
+  <div class="card-container" id="cardContainer">
     <div class="card">
         <div class="card-body">
             <img src="img/beliche.webp" alt="Imagem 3">
@@ -67,49 +105,20 @@
   </div>
 <BR>
 <BR>
-<div class="card-container" id="cardContainer">
-
-    <!-- Cartões adicionados pelo botão MOSTRAR MAIS serão inseridos aqui -->
-</div>
 <div class="mostrarmais-container">
     <button class="mostrarmais" onclick="showMoreCards()">MOSTRAR MAIS</button>
+</div>
+<div class="oppagamento">
+    <div id="pix"><img src="img/pix.svg">
+    <button>PIX</button>
+    </div>
+    <div id="cartao"><img src="img/cartao.webp"><button>CARTÃO</button></div>
+    <div id="boleto"><img src="img/boleto.webp"><button>BOLETO</button></div>
 </div>
         <footer>
             <?php
             include_once("templates/footer.php");
             ?>
         </footer>
-        <script>
-    // script.js
-    let cardContainer = document.getElementById("cardContainer");
-
-function showMoreCards() {
-    // Informações para os novos cards
-    const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
-    ];
-
-    // Create new card elements and append them to the card container
-    for (let i = 0; i < newCardInfo.length; i++) {
-        let newCard = document.createElement("div");
-        newCard.classList.add("card");
-        newCard.innerHTML = `
-            <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
-                <h5 class="card-title">${newCardInfo[i].name}</h5>
-                <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
-            </div>
-            <br>
-        `;
-        cardContainer.appendChild(newCard);
-    }
-
-    // Ocultar o botão MOSTRAR MAIS
-    document.querySelector(".mostrarmais-container").style.display = "none";
-}
-</script>
-
 </body>
 </html>
