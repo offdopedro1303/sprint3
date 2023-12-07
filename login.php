@@ -9,15 +9,9 @@
         
     </head>
     <body>
-    <header>
-    <div class="navbar dropdown">
-      <img src="../sprint3/img/Logo (2).png" alt="Logo">
-      <div class="logo">
-          <img src="../sprint3/img/Logo (3).png">
-      </div>
-      <div class="login">
-          <a href="../sprint3/login.php"><img src="img/login.png"></a>
-</header>
+    <?php
+        include_once("templates/header.php");
+        ?>
 
           <style>
             .card-log {
@@ -34,7 +28,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
     width: 380px;
-    height: 300px;
+    height: 370px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #544013; /* Fundo branco */
     text-align: center; /* Centraliza o conteúdo */
@@ -63,7 +57,7 @@
 
         }
         .login2 {
-            color: wheat;
+            color: #FFBC49;
             font-size: 20px;
         }
         .log-container{
@@ -77,18 +71,26 @@
         .buttonlogin    {
             position: relative;
     z-index: 1;
-    background-color: wheat;  
-        }
-        .button-contentlogin    {
-            
+    background-color: #FFBC49;  
     border: none;
-            background-size: 400%;
-    height: 3rem;
+            overflow: hidden;
+            border-radius: 1.5rem;
+            font-size: 24px;
+            height: 3rem;
     padding: 0 4rem;
     border-radius: 1.5rem;
-    background-color: wheat;        
+        }
+.buttonlogin{
+    color: #544013;
+            font-size: 20px;
 }
-        
+.conta {
+   
+    color: wheat;
+}
+.cadastre-se{
+    color: wheat;
+}
         
 
             </style>
@@ -109,9 +111,16 @@
                     
 </div>
 <button class="buttonlogin">
-<span class="button-contentlogin"><h7>Entrar</h7></span>
+<span class="button-contentlogin">Entrar</span>
             </button> 
-
+            <div class="conta">
+                <p>Não tem uma conta?</p>
+            </div>
+           
+            <div class="cadastre-se">
+                <a href="cadastro.php"><p>Cadastre-se</p></a>
+            </div>
+           
                     
                     
                 </div>
@@ -119,6 +128,3 @@
             <?php
         include_once("templates/footer.php");
         ?>
-            
-        
-  </body>
