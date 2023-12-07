@@ -25,10 +25,11 @@
     margin-left: 40%;
 }
 .container img{
-    width: 60%;
-    height: 556px;
+    width: 85%;
+    height: 530px;
     border-radius: 50px;
 }
+
 .mostrarmais-container {
     display: flex;
     justify-content: center;
@@ -52,32 +53,31 @@
 .comentarios{
     display: flex;
     justify-content: space-between;
-    margin: 1em 12em;
+    overflow: hidden;
 }
+
 .com1{
     color:#3F6CF4;
-    width: 100px;
+    margin: 90px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
     
 }
 .com2{
     color:#3F7CF4;
     width: 100px;
+    margin-left: -500px;
 }
-    label {
+label {
       font-size: 18px;
       margin-bottom: 10px;
       color: #333;
     }
 
-    .datepicker {
-      font-size: 16px;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: none;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
+    .datepicker,
     #quantidadeHospedes {
       font-size: 16px;
       padding: 10px;
@@ -85,6 +85,8 @@
       border: none;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%; /* Largura máxima para todos os dispositivos */
+      box-sizing: border-box; /* Evita que a largura seja afetada pelo preenchimento e borda */
     }
 
     #btnReservar {
@@ -96,6 +98,50 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       cursor: pointer;
+    }
+    .praga{
+        background-color: #f3f3f3;
+        padding: 100px;
+        border-radius: 40px;
+    }
+    @media (min-width: 768px) {
+      /* Ajusta estilos para dispositivos com largura de tela igual ou superior a 768 pixels */
+      .praga body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .praga {
+        text-align: center;
+        max-width: 600px; /* Define uma largura máxima para o contêiner */
+        margin: 0 auto; /* Centraliza o contêiner */
+      }
+    }
+    #quantidadeHospedes {
+      font-size: 16px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #btnReservar {
+      font-size: 16px;
+      padding: 10px 270px;
+      background-color: #FFBC49;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+    .comentarios img{
+        width: 645px;
+        height: 223px;
+
     }
 </style>
 <body>
@@ -109,8 +155,11 @@
     <br>
     <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
 </div>
-
-<div style="text-align: center;">
+<br>
+<br>
+<br>
+<br>
+<div class="praga"style="text-align: center;">
     <label for="datepickerChegada">Data de Chegada:</label>
     <input type="text" id="datepickerChegada" class="datepicker" readonly>
 
@@ -124,8 +173,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1">aaaaa</div>
-    <div class="com2">aaaaaa</div>
+    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
 </div>
 
 
