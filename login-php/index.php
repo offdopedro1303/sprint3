@@ -31,7 +31,7 @@ session_start();
 
         .notification.is-danger {
             background-color: #F4F0D8;
-            color: #F4F0D8;
+            color: black;
             border-radius: 40px;
         }
 
