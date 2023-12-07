@@ -25,7 +25,7 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/saolourenco.webp" alt="Imagem 1">
+            <img src="../sprint3/img/hotel3.jpg" alt="Imagem 1">
             <h5 class="card-title">Chácara São Lorenço</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
@@ -33,7 +33,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/piscina.webp" alt="Imagem 2">
+            <img src="../sprint3/img/hotel5.jpg" alt="Imagem 2">
             <h5 class="card-title">Casa com Piscina Maranhão</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
@@ -41,7 +41,7 @@
 <!-- teste -->
     <div class="card">
         <div class="card-body">
-            <img src="img/sala.webp" alt="Imagem 3">
+            <img src="../sprint3/img/hotel.jpg" alt="Imagem 3">
             <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
         </div>
