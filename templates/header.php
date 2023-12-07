@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <body>
     <header>
@@ -85,7 +85,7 @@
     .subnav2 {
       position: relative;
         display: flex;
-        background-color: #FFBC49;
+        background-color: wheat;
         top: 50px;
         justify-content: center;
         gap: 10%; 
@@ -94,3 +94,4 @@
     </style>
   </body>
 </html>
+
