@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="subnav2">
-          <a href="../sprint3/piscinas.php"><img src="img/piscinaslogo.png"></a>
+          <a href="../sprint3/piscinas.php"><img src="../sprint3/img/piscinaslogo.png"></a>
           <a href="../sprint3/beiramar.php"><img src="../sprint3/img/beiramar.png"></a>
           <a href="../sprint3/hoteis.php"><img src="../sprint3/img/hoteis.png"></a>
           <a href="../sprint3/chales.php"><img src="../sprint3/img/chale.png"></a>
