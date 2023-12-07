@@ -3,6 +3,71 @@ body {
     font-family: Arial, sans-serif;
     background-color: #EEEEEE;
 }
+
+.navbar {
+    background-color: #544013;
+    overflow: hidden;
+display: block;
+}
+
+.navbar img {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 40px; /* ajuste conforme necessário */
+}
+
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* ajuste conforme necessário */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar .logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px; /* ajuste conforme necessário */
+
+}
+.navbar .logo img {
+    display: flex;
+    justify-content:right;
+    align-items:baseline;
+    height: 20px; /* ajuste conforme necessário */
+}
+.navbar .login {
+    float: right;
+    display: flex; /* Adicionado para alinhar os itens na mesma linha */
+    align-items: center; /* Alinha verticalmente com a logo */
+    margin-right: 1px;
+}
+.login img {
+    height: 30px; /* Ajuste conforme necessário */
+    margin-left: 10px; /* Ajuste conforme necessário */
+    margin-top: -50px;
+}
+.subnav {
+    display: none;
+    background-color: #F4F0D8;
+    overflow: hidden;
+}
+.subnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown:hover .subnav {
+    display: block;
+}
+
 .button1 {
     display: flex;
     justify-content: center;
@@ -20,26 +85,17 @@ body {
   
   .button1 .text {
     color: white;
-    font-weight: 700;
-    font-size: 1em;
-    transition: 400ms;
-  }
-  
-  .button1 svg img {
-    transition: 400ms;
-  }
-  
-  .button1:hover {
-    background-color: transparent;
-  }
-  
-  .button1:hover .text {
-    color: #007ACC;
-  }
-  
-  .button1:hover svg img {
-    fill: #192127;
-  }
+    border-radius: 4px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }
 
 
 /* ---------------------------------------------------------- */
