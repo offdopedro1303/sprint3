@@ -11,8 +11,6 @@
         <?php
         include_once("templates/header.php");
         ?>
-        <br>
-        <br>
         <div class="card-container">
             <div class="card">
                 <div class="card-body">
