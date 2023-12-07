@@ -31,10 +31,7 @@
         gap: 25%; 
         background-color: wheat;
         color: #544013;
-        text-align: center
-        ;
-        
-        
+        text-align: center;
     }
     .footer2{
         display: flex;
