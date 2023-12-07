@@ -4,9 +4,9 @@
     <header>
     <div class="navbar">
       <div class="subnav">
-        <a href="index.php"><img src="../sprint3/img/Logo (2).png" alt="Logo"></a>
+        <a href="index.php"><img src="../sprint3/img/logoprin.png" alt="Logo"></a>
         <div class="logo">
-            <a href="#"><img src="../sprint3/img/Logo (3).png"></a>
+            <a href="#"><img src="../sprint3/img/logocentra.png"></a>
         </div>
         <div class="login">
             <img src="../sprint3/img/login.png" alt="Login">
@@ -85,7 +85,7 @@
     .subnav2 {
       position: relative;
         display: flex;
-        background-color: #FFBC49;
+        background-color: wheat;
         top: 50px;
         justify-content: center;
         gap: 10%; 
