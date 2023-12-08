@@ -21,7 +21,7 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <img src="img/piscina.webp" alt="Imagem 2">
+                    <img src="img/piscinas/piscina.webp" alt="Imagem 2">
                     <h5 class="card-title">Casa com Piscina Maranhão</h5>
                     <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
                 </div>
@@ -89,7 +89,7 @@
         
             <div class="card">
                 <div class="card-body">
-                    <img src="img/piscinas1.webp" alt="Imagem 3">
+                    <img src="img/piscinas/piscinas1.webp" alt="Imagem 3">
                     <h5 class="card-title">Chácara em Minas Gerais</h5>
                     <p class="card-text"><img src="img/estrela.PNG">4,98 <a>R$316,00</a></p>
                 </div>
