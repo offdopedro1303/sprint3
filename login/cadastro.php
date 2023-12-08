@@ -62,7 +62,7 @@
                             <div class="field">
                                 <a href="../politicadeprivacidade.php">Política de Privacidade</a>
                                 <br>
-                                <a href="../termosdeuso.php">Concordo com todos os Termos de Uso</a> <input type="checkbox">
+                                <a href="../termosdeuso.php">Concordo com todos os Termos de Uso.</a> <input type="checkbox">
                             </div>
                             <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
                             <br>
