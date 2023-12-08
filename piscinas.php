@@ -18,51 +18,57 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/saolourenco.webp" alt="Imagem 1">
-            <h5 class="card-title">Chácara São Lorenço</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
+        <a href="pi1.php">
+            <img src="img/piscinas/piscina.webp" alt="Imagem 1">
+            <h5 class="card-title">Casa com piscina Maranhão</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <img src="img/piscina.webp" alt="Imagem 2">
-            <h5 class="card-title">Casa com Piscina Maranhão</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
+        <a href="pi2.php">
+            <img src="img/piscinas/piscinas1.webp" alt="Imagem 2">
+            <h5 class="card-title">Characas em Minas Gerais</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,98 <a>R$316,00</a></p>
         </div>
     </div>
 <!-- teste -->
     <div class="card">
+    <a href="pi3.php">
         <div class="card-body">
-            <img src="img/sala.webp" alt="Imagem 3">
-            <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
+            <img src="img/piscinas/piscinas2.webp" alt="Imagem 3">
+            <h5 class="card-title">Casa com piscina luxuosa</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,67 <a>R$416,00</a></p>
         </div>
     </div>
 </div>
 <br>
   <div class="card-container">
     <div class="card">
+    <a href="pi4.php">
         <div class="card-body">
-            <img src="img/beliche.webp" alt="Imagem 3">
-            <h5 class="card-title">Casa em Suzano</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
+            <img src="img/piscinas/piscinas3.webp" alt="Imagem 3">
+            <h5 class="card-title">Chacara com piscina aquecida</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,99 <a>R$500,00</a></p>
         </div>
     </div>
 
     <div class="card">
+    <a href="pi5.php">
         <div class="card-body">
-            <img src="img/cozinha.webp" alt="Imagem 3">
-            <h5 class="card-title">Chácara em Caraguatatininga</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
+            <img src="img/piscinas/piscinas4.webp" alt="Imagem 3">
+            <h5 class="card-title">Chácara em Maceio</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,37 <a>R$419,00</a></p>
         </div>
     </div>
 
     <div class="card">
+    <a href="pi6.php">
         <div class="card-body">
-            <img src="img/espaco.webp" alt="Imagem 3">
-            <h5 class="card-title">Rio de Janeiro House</h5>
-            <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
+            <img src="img/piscinas/piscinas6.webp" alt="Imagem 3">
+            <h5 class="card-title">Linda casa em Fortaleza</h5>
+            <p class="card-text"><img src="img/estrela.PNG">5,00 <a>R$216,00</a></p>
         </div>
     </div>
   </div>

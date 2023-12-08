@@ -16,13 +16,13 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/piscinas/piscinas4.webp" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Chacara em Maceio<img src="img/estrela.png">   4,37 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Bem-vindo ao esplendor de Maceió, onde o sol brilha intensamente sobre praias douradas e o mar acolhe com águas cristalinas. Apresentamos a você a oportunidade de mergulhar na tranquilidade e no encanto da cidade, alugando uma chácara exclusiva que será o cenário perfeito para experiências inesquecíveis. Situada em meio à exuberante natureza alagoana, nossa chácara oferece um refúgio sereno longe da agitação da cidade. Desfrute de amplos espaços verdes, onde o canto dos pássaros se mistura com a brisa suave, proporcionando uma atmosfera de paz e relaxamento. Com áreas espaçosas e aconchegantes, a chácara é ideal para reuniões familiares, eventos especiais ou simplesmente para uma escapada relaxante. Os detalhes charmosos e o design acolhedor criam um ambiente que combina perfeitamente com o estilo de vida descontraído de Maceió. Refresque-se em uma piscina convidativa, perfeita para os dias ensolarados da região. A piscina torna-se um ponto de encontro para diversão e relaxamento, proporcionando momentos especiais com amigos e familiares enquanto aproveitam o clima tropical de Maceió. </p>
 </div>
 <br>
 <br>
@@ -42,7 +42,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="img/comentarios/comentario1.png"><img src="img/comentarios/comentario2.png"></div>
 </div>
 
 

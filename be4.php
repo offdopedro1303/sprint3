@@ -16,13 +16,25 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/beiramar/beiramar4.jpg" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Hotel Beira Mar<img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>O "Hotel Beira Mar" é um estabelecimento encantador situado à beira-mar, oferecendo aos seus hóspedes uma experiência única de hospedagem com vistas deslumbrantes para o oceano. Localizado em um destino costeiro, este hotel busca proporcionar conforto, conveniência e o charme sereno associado a uma localização à beira-mar.
+
+Arquitetura e Localização:
+A arquitetura do Hotel Beira Mar reflete a atmosfera descontraída e acolhedora da região costeira. Com uma fachada convidativa, o hotel se destaca pela sua localização privilegiada, oferecendo acesso direto à praia. As áreas externas são projetadas para maximizar as vistas para o mar e proporcionar espaços relaxantes para os hóspedes desfrutarem do ambiente marítimo.
+<br>
+Acomodações:
+Os quartos do Hotel Beira Mar são cuidadosamente decorados para oferecer conforto e aconchego aos hóspedes. Muitos quartos podem apresentar varandas privativas para que os visitantes apreciem o som suave das ondas e apreciem o nascer ou pôr do sol sobre o oceano. A decoração pode incorporar elementos marítimos, criando uma atmosfera leve e arejada.
+<br>
+Restaurantes e Gastronomia:
+O hotel pode abrigar um restaurante à beira-mar, proporcionando aos hóspedes a oportunidade de desfrutar de refeições deliciosas com uma vista espetacular. A gastronomia local e internacional pode ser destaque no cardápio, proporcionando uma experiência culinária autêntica.
+<br>
+Áreas de Lazer e Bem-Estar:
+Para garantir uma estadia relaxante, o Hotel Beira Mar pode oferecer áreas de lazer, como piscina com vista para o mar, terraços panorâmicos ou até mesmo um spa que proporciona tratamentos revitalizantes. Essas comodidades são projetadas para que os hóspedes desfrutem plenamente do ambiente costeiro.</p>
 </div>
 <br>
 <br>
@@ -41,8 +53,8 @@
     <button id="btnReservar">Reservar</button>
   </div>
 
-<div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+  <div class="comentarios">
+    <div class="com1"><img src="../sprint3/img/comentarios/comentario2.png"><img src="../sprint3/img/comentarios/comentario3.png"></div>
 </div>
 
 
@@ -94,9 +106,9 @@
 function showMoreCards() {
     // Informações para os novos cards
     const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
+        { name: "Apê José Menino", rating: "4,50", price: "R$190,00" },
+        { name: "Resort Maragogi", rating: "5,00", price: "R$1369,00" },
+        { name: "Apê no Guaruja", rating: "4,82", price: "R$299,00" }
     ];
 
     // Create new card elements and append them to the card container
@@ -105,7 +117,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+            <img src="../sprint3/img/beiramar/beiramar${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

@@ -16,13 +16,13 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/piscinas/piscinas6.webp" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Linda casa em Fortaleza<img src="img/estrela.png">   5,00 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Bem-vindo à vibrante Fortaleza, onde o sol brilha intensamente sobre praias deslumbrantes e a alegria contagia cada rua. Apresentamos a você a oportunidade de viver essa atmosfera única alugando uma casa perfeita que será o ponto de partida para experiências memoráveis na cidade. Imagine acordar com a brisa do oceano acariciando suavemente a sua pele. Nossa casa à beira-mar oferece não apenas acomodações luxuosas, mas uma experiência imersiva nas maravilhas naturais de Fortaleza. A praia está a poucos passos de distância, convidando-o a mergulhar no azul cristalino do mar. Cada canto desta casa foi projetado para refletir o espírito acolhedor e sofisticado de Fortaleza. Dos quartos elegantes às áreas de convívio espaçosas, você encontrará o equilíbrio perfeito entre conforto moderno e charme local. Desfrute de momentos de descontração na nossa área de lazer privativa, onde uma piscina convida para mergulhos refrescantes e banhos de sol relaxantes. Ideal para reuniões familiares, encontros com amigos ou simplesmente para momentos de relaxamento após explorar a cidade.</p>
 </div>
 <br>
 <br>
@@ -42,7 +42,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="img/comentarios/comentario1.png"><img src="img/comentarios/comentario2.png"></div>
 </div>
 
 

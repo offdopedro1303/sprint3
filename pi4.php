@@ -16,13 +16,13 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/piscinas/piscinas3.webp" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Chacara com piscina aquecida<img src="img/estrela.png">   4,99 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Seja bem-vindo a um refúgio de calor e conforto, onde a serenidade encontra o aconchego. Apresentamos a você a oportunidade de elevar sua experiência em uma chácara única, onde a piscina aquecida se torna o centro de relaxamento e diversão durante todo o ano. Em meio à natureza exuberante, nossa chácara oferece um ambiente sereno para escapar da agitação diária. Com amplos jardins e espaços verdes, você se conectará com a tranquilidade que apenas o campo pode proporcionar. Deleite-se na piscina aquecida, onde a água morna proporciona um contraste suave com o clima ao redor. Independentemente da estação, sua experiência de natação se transforma em um luxo relaxante, permitindo momentos de pura descontração em meio a um ambiente natural. Esqueça as preocupações com a temperatura da água. Com a piscina aquecida, cada mergulho se torna uma experiência revigorante, seja em dias ensolarados de verão ou no aconchego de noites mais frescas. Desfrute do prazer da água durante todas as estações. Além da piscina, a chácara oferece espaços ao ar livre ideais para churrascos, piqueniques e atividades recreativas. Crie memórias especiais com amigos e familiares em um ambiente que une o calor humano com o calor da piscina.</p>
 </div>
 <br>
 <br>
@@ -42,7 +42,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="img/comentarios/comentario1.png"><img src="img/comentarios/comentario2.png"></div>
 </div>
 
 
