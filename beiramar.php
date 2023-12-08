@@ -17,7 +17,7 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/saolourenco.webp" alt="Imagem 1">
+            <img src="img/beiramar1.png" alt="Imagem 1">
             <h5 class="card-title">Chácara São Lorenço</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
