@@ -88,7 +88,7 @@
     .subnav2 {
       position: relative;
         display: flex;
-        background-color: wheat;
+        background-color: #EBD09D;
         top: 50px;
         justify-content: center;
         gap: 10%; 
@@ -99,7 +99,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: wheat;
+  background-color: #EBD09D;
   outline-offset: -3px;
   border: none;
   cursor: pointer;
