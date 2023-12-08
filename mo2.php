@@ -20,9 +20,9 @@
 </div>
 
 <div class="texto">
-    <h1>Pousada Pico Celestial<img src="img/estrela.png">   4,47 </h1>
+    <h1>Estalagem da Serra Branca<img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Nas alturas do Pico Celestial, somos mais do que uma pousada; somos uma porta para o sublime. Desfrute de vistas espetaculares que transcendem o ordinário, proporcionando um cenário celestial para a sua estadia. A cada alvorecer, seja saudado por um espetáculo de cores que transformam o despertar em uma experiência extraordinária, onde a grandiosidade das montanhas se encontra com a delicadeza do nascer do sol.</p>
+    <p>Adentre a Estalagem da Serra Branca, onde a elegância se encontra com a simplicidade em um abraço caloroso. Cada detalhe desta estalagem é um convite para explorar a união harmoniosa entre o luxo e a autenticidade de um ambiente de montanha. Desfrute de uma estadia que captura os sentidos e oferece um refúgio sereno nas alturas, onde a sofisticação se alinha à paz interior.</p>
 </div>
 <br>
 <br>
