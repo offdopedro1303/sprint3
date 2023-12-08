@@ -17,24 +17,26 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/montanha1.jpg" alt="Imagem 1">
-            <h5 class="card-title">Chácara São Lorenço</h5>
+            <a href="../sprint3/mo1.php">
+            <img src="../sprint3/img/montanhas/montanha1.jpg" alt="Imagem 1">
+            </a>
+            <h5 class="card-title">Vista Alpina Lodge</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <img src="img/montanha7.jpg" alt="Imagem 2">
-            <h5 class="card-title">Casa com Piscina Maranhão</h5>
+            <img src="../sprint3/img/montanhas/montanha2.jpg" alt="Imagem 2">
+            <h5 class="card-title">Estalagem da Serra Branca</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
     </div>
 <!-- teste -->
     <div class="card">
         <div class="card-body">
-            <img src="img/montanha3.jpg" alt="Imagem 3">
-            <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
+            <img src="../sprint3/img/montanhas/montanha3.jpg" alt="Imagem 3">
+            <h5 class="card-title">Refúgio Sereno nas Alturas</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
         </div>
     </div>
@@ -43,24 +45,24 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/montanha4.jpg" alt="Imagem 3">
-            <h5 class="card-title">Casa em Suzano</h5>
+            <img src="../sprint3/img/montanhas/montanha4.jpg" alt="Imagem 3">
+            <h5 class="card-title">Chalet da Montanha Mágica</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <img src="img/montanha5.jpg" alt="Imagem 3">
-            <h5 class="card-title">Chácara em Caraguatatininga</h5>
+            <img src="../sprint3/img/montanhas/montanha5.jpg" alt="Imagem 3">
+            <h5 class="card-title">Pousada Celestial</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <img src="img/montanha9.jpg" alt="Imagem 3">
-            <h5 class="card-title">Rio de Janeiro House</h5>
+            <img src="../sprint3/img/montanhas/montanha6.jpg" alt="Imagem 3">
+            <h5 class="card-title">Pousada Mirante Estelar</h5>
             <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
         </div>
     </div>
@@ -86,9 +88,9 @@
 function showMoreCards() {
     // Informações para os novos cards
     const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
+        { name: "Aconchego dos Cânions", rating: "4,50", price: "R$190,00" },
+        { name: "Abrigo das Nuvens Douradas", rating: "5,00", price: "R$369,00" },
+        { name: "Estalagem da Serra", rating: "4,82", price: "R$299,00" }
     ];
 
     // Create new card elements and append them to the card container
@@ -97,7 +99,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <img src="../sprint3/img/montanhas/montanha${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>
