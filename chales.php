@@ -13,7 +13,6 @@
   include_once("templates/header.php");
 ?>
 
-
 <div class="card-container">
     <div class="card">
         <div class="card-body">
