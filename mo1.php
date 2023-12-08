@@ -20,9 +20,9 @@
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Vista Alpina Lodge<img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>No Vista Alpina Lodge, a fusão de luxo e natureza cria uma experiência memorável. Cada quarto é uma obra-prima de conforto, e cada janela oferece uma moldura para vistas deslumbrantes das montanhas. Desfrute de uma combinação única de sofisticação e simplicidade, em um ambiente que redefine os padrões de hospitalidade, proporcionando uma experiência que transcende expectativas.</p>
 </div>
 <br>
 <br>
