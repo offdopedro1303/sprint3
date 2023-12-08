@@ -192,7 +192,7 @@ O uso do site é por sua conta e risco. Não garantimos que o site estará livre
             <a>Li e Aceito todos os termos de uso indicados</a>
         </label>
     </div>
-    <a href="login.html">
+    <a href="login.php">
     <button>
         Submit
     </button>
