@@ -47,8 +47,8 @@ O apartamento na Guilhermina pode apresentar dois ou mais quartos, cada um cuida
     <button id="btnReservar">Reservar</button>
   </div>
 
-<div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+  <div class="comentarios">
+    <div class="com1"><img src="../sprint3/img/comentarios/comentario2.png"><img src="../sprint3/img/comentarios/comentario3.png"></div>
 </div>
 
 
