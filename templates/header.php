@@ -15,11 +15,11 @@
         </a>
       </div>
       <div class="subnav2">
-          <a href="../sprint3/piscinas.php"><img src="../sprint3/img/piscinaslogo.png"></a>
-          <a href="../sprint3/beiramar.php"><img src="../sprint3/img/beiramar.png"></a>
-          <a href="../sprint3/hoteis.php"><img src="../sprint3/img/hoteis.png"></a>
-          <a href="../sprint3/chales.php"><img src="../sprint3/img/chale.png"></a>
-          <a href="../sprint3/montanhas.php"><img src="../sprint3/img/montanhas.png"></a>
+          <button class="button"><a href="../sprint3/piscinas.php"><img src="../sprint3/img/piscinaslogo.png"></a></button>
+          <button class="button"><a href="../sprint3/beiramar.php"><img src="../sprint3/img/beiramar.png"></a></button>
+          <button class="button"><a href="../sprint3/hoteis.php"><img src="../sprint3/img/hoteis.png"></a></button>
+          <button class="button"><a href="../sprint3/chales.php"><img src="../sprint3/img/chale.png"></a></button>
+          <button class="button"><a href="../sprint3/montanhas.php"><img src="../sprint3/img/montanhas.png"></a></button>
       </div>
     </div>
     <br>
@@ -94,6 +94,30 @@
         gap: 10%; 
         padding: 8px 14px;
     }
+
+    .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  outline-offset: -3px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+
+.button svg path {
+  transition: 400ms;
+}
+
+.button:hover {
+  background-color: #FFBC49;
+}
+
+.button:hover svg path {
+  fill: #007ACC;
+}
     </style>
   </body>
 </html>
