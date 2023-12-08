@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card-body">
             <img src="img/beiramar/beiramar1.jpg" alt="Imagem 1">
-            <h5 class="card-title">Chácara São Lorenço</h5>
+            <h5 class="card-title">Apê Praia Guilhermina</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
     </div>
@@ -26,7 +26,7 @@
     <div class="card">
         <div class="card-body">
             <img src="img/beiramar/beiramar2.jpg" alt="Imagem 2">
-            <h5 class="card-title">Casa com Piscina Maranhão</h5>
+            <h5 class="card-title">Casa Orla Peruíbe Beach </h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
     </div>
@@ -34,8 +34,8 @@
     <div class="card">
         <div class="card-body">
             <img src="img/beiramar/beiramar3.jpg" alt="Imagem 3">
-            <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
+            <h5 class="card-title">Hotel Copacabana Palace</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$1316,00</a></p>
         </div>
     </div>
 </div>
@@ -44,24 +44,24 @@
     <div class="card">
         <div class="card-body">
             <img src="img/beiramar/beiramar4.jpg" alt="Imagem 3">
-            <h5 class="card-title">Casa em Suzano</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
+            <h5 class="card-title">Hotel Beira Mar</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$600,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
             <img src="img/beiramar/beiramar5.jpg" alt="Imagem 3">
-            <h5 class="card-title">Chácara em Caraguatatininga</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
+            <h5 class="card-title">Hotel Jequetimar</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$819,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
             <img src="img/beiramar/beiramar6.jpg" alt="Imagem 3">
-            <h5 class="card-title">Rio de Janeiro House</h5>
-            <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
+            <h5 class="card-title">Apê Orla de Mongaguá</h5>
+            <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$216,00</a></p>
         </div>
     </div>
   </div>
@@ -86,9 +86,9 @@
 function showMoreCards() {
     // Informações para os novos cards
     const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
+        { name: "Apê José Menino", rating: "4,50", price: "R$190,00" },
+        { name: "Resort Maragogi", rating: "5,00", price: "R$1369,00" },
+        { name: "Apê no Guaruja", rating: "4,82", price: "R$299,00" }
     ];
 
     // Create new card elements and append them to the card container
@@ -97,7 +97,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/beiramar${i+1}.jpg" alt="Nova Imagem ${i+1}">
+                <img src="../sprint3/img/beiramar/beiramar${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>
