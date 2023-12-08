@@ -75,6 +75,9 @@
 <div class="mostrarmais-container">
     <button class="mostrarmais" onclick="showMoreCards()">MOSTRAR MAIS</button>
 </div>
+<br>
+<br>
+<br>
         <footer>
             <?php
             include_once("templates/footer.php");
