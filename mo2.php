@@ -16,13 +16,13 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="../sprint3/img/montanhas/montanha2.jpg" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Pousada Pico Celestial<img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Nas alturas do Pico Celestial, somos mais do que uma pousada; somos uma porta para o sublime. Desfrute de vistas espetaculares que transcendem o ordinário, proporcionando um cenário celestial para a sua estadia. A cada alvorecer, seja saudado por um espetáculo de cores que transformam o despertar em uma experiência extraordinária, onde a grandiosidade das montanhas se encontra com a delicadeza do nascer do sol.</p>
 </div>
 <br>
 <br>
@@ -42,7 +42,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="../sprint3/img/comentarios/comentario5.png"><img src="../sprint3/img/comentarios/comentario4.png"></div>
 </div>
 
 
@@ -51,7 +51,7 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/beliche.webp" alt="Imagem 3">
+            <img src="../sprint3/img/montanhas/montanha4.jpg" alt="Imagem 3">
             <h5 class="card-title">Casa em Suzano</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
         </div>
@@ -59,7 +59,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/cozinha.webp" alt="Imagem 3">
+            <img src="../sprint3/img/montanhas/montanha5.jpg" alt="Imagem 3">
             <h5 class="card-title">Chácara em Caraguatatininga</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
         </div>
@@ -67,7 +67,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/espaco.webp" alt="Imagem 3">
+            <img src="../sprint3/img/montanhas/montanha6.jpg" alt="Imagem 3">
             <h5 class="card-title">Rio de Janeiro House</h5>
             <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
         </div>
@@ -105,7 +105,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <img src="../sprint3/img/montanhas/montanha${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>
