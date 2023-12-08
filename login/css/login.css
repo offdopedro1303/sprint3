@@ -4,7 +4,7 @@ html,body {
   font-weight: 300;
 }
 .hero.is-success {
-  background: #f2f7fa;
+  background: #F4F0D8;
 }
 .hero .nav, .hero.is-success .nav {
   -webkit-box-shadow: none;
@@ -16,3 +16,6 @@ input {
 p {
   font-weight: 700;
 }
+
+
+
