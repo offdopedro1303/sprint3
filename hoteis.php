@@ -25,24 +25,30 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
+            <a href="../sprint3/ho1.php">
             <img src="../sprint3/img/hoteis/hotel.jpg" alt="Imagem 1">
-            <h5 class="card-title">Chácara São Lorenço</h5>
+</a>
+            <h5 class="card-title">Riviera Serena Resort</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/ho2.php">
             <img src="../sprint3/img/hoteis/hotel2.jpg" alt="Imagem 2">
-            <h5 class="card-title">Casa com Piscina Maranhão</h5>
+</a>
+            <h5 class="card-title">Maravilha nas Dunas Hotel & Spa</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
     </div>
 <!-- teste -->
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/ho1.php">
             <img src="../sprint3/img/hoteis/hotel3.jpg" alt="Imagem 3">
-            <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
+</a>
+            <h5 class="card-title">Oásis Dourado Resort & Spa:</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
         </div>
     </div>
@@ -51,24 +57,30 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/ho1.php">
             <img src="../sprint3/img/hoteis/hotel4.webp" alt="Imagem 3">
-            <h5 class="card-title">Casa em Suzano</h5>
+        </a>
+            <h5 class="card-title">Retiro das Águas Tranquilas</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/ho2.php">
             <img src="../sprint3/img/hoteis/hotel5.jpg" alt="Imagem 3">
-            <h5 class="card-title">Chácara em Caraguatatininga</h5>
+</a>
+            <h5 class="card-title">Mirante do Horizonte Eterno:</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/ho1.php">
             <img src="../sprint3/img/hoteis/hotel6.jpg" alt="Imagem 3">
-            <h5 class="card-title">Rio de Janeiro House</h5>
+        </a>
+            <h5 class="card-title">Serenata nas Colinas Resort:</h5>
             <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
         </div>
     </div>
@@ -105,7 +117,8 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="../sprint3/img/hoteis/hotel${i+7}.webp" alt="Nova Imagem ${i+1}">
+            <a href="../sprint3/ho1.php"><img src="../sprint3/img/hoteis/hotel${i+7}.webp" alt="Nova Imagem ${i+1}">
+            </a>
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

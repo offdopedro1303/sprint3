@@ -17,7 +17,9 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
+            <a href="../sprint3/be1.php">
             <img src="img/beiramar/beiramar1.jpg" alt="Imagem 1">
+            </a>
             <h5 class="card-title">Apê Praia Guilhermina</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
@@ -25,7 +27,9 @@
 
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/be2.php">
             <img src="img/beiramar/beiramar2.jpg" alt="Imagem 2">
+        </a>
             <h5 class="card-title">Casa Orla Peruíbe Beach </h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
@@ -33,7 +37,9 @@
 <!-- teste -->
     <div class="card">
         <div class="card-body">
+            <a href="../sprint3/be3.php">
             <img src="img/beiramar/beiramar3.jpg" alt="Imagem 3">
+        </a>
             <h5 class="card-title">Hotel Copacabana Palace</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$1316,00</a></p>
         </div>
@@ -43,7 +49,9 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
+            <a href="../sprint3/be4.php">
             <img src="img/beiramar/beiramar4.jpg" alt="Imagem 3">
+        </a>
             <h5 class="card-title">Hotel Beira Mar</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$600,00</a></p>
         </div>
