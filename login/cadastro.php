@@ -12,14 +12,14 @@
 </head>
 
 <body>
+    <?php
+        include_once("header.php");
+    ?>
     <section class="hero is-success is-fullheight">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
                     <div class="notification is-success" style="background-color: #F4F0D8; color:#544013";>
-                      <p>Ao Efetuar o Cadastro</p>
-                      <p>Faça login informando o seu usuário e senha <a href="login.php">aqui</a></p>
-                    </div>
                     
                     <div class="box">
 
@@ -90,6 +90,94 @@
             background-color: #F4F0D8;
             color: #544013;
             border-radius: 40px;
+        }
+
+         /* ------------------- */
+
+         html {
+            scroll-behavior: smooth; /* Permite transição suave quando se clica Nav a*/
+        }   
+        .navbar {
+            background-color: #544013;
+        }
+        .navbar img {
+            float: left;
+            margin-top: 5px;
+            margin-left: 5%;
+            height: 40px; /* ajuste conforme necessário */
+        }
+        .navbar .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px; /* ajuste conforme necessário */
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin-right: 12%;
+            }
+        .navbar .logo img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20px; /* ajuste conforme necessário */
+        }
+        .navbar .logo img {
+            display: flex;
+            justify-content:right;
+            align-items:baseline;
+            height: 20px; /* ajuste conforme necessário */
+        }
+        .navbar .login {
+            float: right;
+            display: flex; /* Adicionado para alinhar os itens na mesma linha */
+            align-items: center; /* Alinha verticalmente com a logo */
+            margin-right: 5%;
+        }
+        .login img {
+            height: 30px; /* Ajuste conforme necessário */
+            margin-left: 10px; /* Ajuste conforme necessário */
+            margin-top: -50px;
+        }
+        .subnav{
+            background-color: #544013;
+            position: fixed;
+            top: 0px;
+            height: auto;
+            width: 100%;
+            z-index: 999;
+        }
+        .subnav2 {
+            position: fixed;
+            display: flex;
+            background-color: #EBD09D;
+            top: 50px;
+            justify-content: center;
+            height: 65px;
+            width: 100%;
+            gap: 13%; 
+            padding: 8px 14px;
+        }
+        .button2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #EBD09D;
+            outline-offset: -3px;
+            border: none;
+            cursor: pointer;
+            transition: 400ms;
+            border-radius: 45px;
+            
+        }
+        .button2 svg path {
+            transition: 400ms;
+        }
+        .button2:hover {
+            background-color: #FFBC49;
+        }
+        .button2:hover svg path {
+            fill: #007ACC;
         }
     </style>
 </html>
