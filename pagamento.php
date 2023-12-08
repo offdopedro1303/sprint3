@@ -81,53 +81,53 @@
     border-radius: 0px 40px 40px 0px;
 }
 button {
-  background: transparent;
-  position: relative;
-  padding: 5px 15px;
-  display: flex;
-  align-items: center;
-  font-size: 17px;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid rgb(40, 144, 241);
-  border-radius: 25px;
-  outline: none;
-  overflow: hidden;
-  color: rgb(40, 144, 241);
-  transition: color 0.3s 0.1s ease-out;
-  text-align: center;
+ background: transparent;
+ position: relative;
+ padding: 5px 15px;
+ display: flex;
+ align-items: center;
+ font-size: 17px;
+ font-weight: 600;
+ text-decoration: none;
+ cursor: pointer;
+ border: 1px solid 1px #FFBC49;;
+ border-radius: 25px;
+ outline: none;
+ overflow: hidden;
+ color: #FFBC49;;
+ transition: color 0.3s 0.1s ease-out;
+ text-align: center;
 }
 
 button span {
-  margin: 10px;
+ margin: 10px;
 }
 
 button::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  content: '';
-  border-radius: 50%;
-  display: block;
-  width: 20em;
-  height: 20em;
-  left: -5em;
-  text-align: center;
-  transition: box-shadow 0.5s ease-out;
-  z-index: -1;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin: auto;
+ content: '';
+ border-radius: 50%;
+ display: block;
+ width: 20em;
+ height: 20em;
+ left: -5em;
+ text-align: center;
+ transition: box-shadow 0.5s ease-out;
+ z-index: -1;
 }
 
 button:hover {
-  color: #fff;
-  border: 1px solid rgb(40, 144, 241);
+ color: #fff;
+ border: 1px solid #FFBC49;
 }
 
 button:hover::before {
-  box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
+ box-shadow: inset 0 0 0 10em #FFBC49;;
 }
  
 
@@ -137,7 +137,7 @@ button:hover::before {
 <body>
 
 <?php
-  include_once("templates/header.php");
+ include_once("templates/header.php");
 ?>
 
 <DIV ID="containerconf">
@@ -151,8 +151,8 @@ button:hover::before {
     <p>Total de dias: <span id="totalDias"></span></p>
     <p>Taxa de Serviço: R$<span id="taxaServico"></span></p>
     <p>Valor Total: R$<span id="valorTotal"></span></p>
-  </div>
-  <IMG src="img/saolourenco.webp">
+ </div>
+ <IMG src="img/saolourenco.webp">
 </DIV>
 <div class="oppagamento">
     <div id="pix"><img src="img/pix.svg">
@@ -175,7 +175,7 @@ button:hover::before {
         </footer>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script>
+ <script>
     const chegadaReserva = JSON.parse(localStorage.getItem("chegadaReserva")) || {};
     const saidaReserva = JSON.parse(localStorage.getItem("saidaReserva")) || {};
     const quantidadeHospedes = localStorage.getItem("quantidadeHospedes") || 1;
@@ -198,6 +198,6 @@ button:hover::before {
     document.getElementById("totalDias").textContent = diffEmDias;
     document.getElementById("taxaServico").textContent = taxaServico;
     document.getElementById("valorTotal").textContent = valorTotal;
-  </script>
+ </script>
 
 </html>

@@ -135,8 +135,6 @@ body {
     width: 100%;
     height: inherit;
     border-radius: inherit;
-    background: #3F6CF4;
-    transition: all 0.475s;
 }
 .card-body {
     padding: 15px;
