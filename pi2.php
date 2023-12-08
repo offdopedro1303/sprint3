@@ -16,13 +16,13 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/piscinas/piscinas1.webp" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Chácara em Minas Gerais<img src="img/estrela.png">   4,98 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Seja bem-vindo a um retiro sereno no coração de Minas Gerais, onde a natureza exuberante encontra o conforto autêntico. Apresentamos a você a oportunidade de vivenciar a magia da vida rural em uma chácara encantadora, um refúgio que proporciona tranquilidade e momentos inesquecíveis.Explore a paz e a beleza que esta chácara exclusiva oferece. Rodeada por paisagens deslumbrantes, a propriedade é um convite ao relaxamento e à desconexão do ritmo acelerado da vida cotidiana. Com espaços amplos e aconchegantes, esta chácara é perfeita para reuniões familiares, eventos especiais ou simplesmente para uma escapada relaxante.Sinta a brisa fresca da montanha enquanto explora os jardins bem cuidados e as trilhas pitorescas que circundam a propriedade. Uma variedade de flora e fauna locais criam um cenário idílico, proporcionando uma experiência autêntica da riqueza natural de Minas Gerais. Desfrute de momentos de descontração na piscina refrescante ou relaxe sob a sombra de árvores centenárias. A chácara oferece espaços para churrascos, piqueniques e atividades ao ar livre, tornando-a ideal para celebrações, confraternizações e momentos especiais com seus entes queridos.Situada em uma localização privilegiada, nossa chácara oferece fácil acesso às maravilhas de Minas Gerais. Explore as cidades históricas, delicie-se com a gastronomia local e mergulhe na cultura única da região.</p>
 </div>
 <br>
 <br>
@@ -42,7 +42,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="img/comentarios/comentario1.png"><img src="img/comentarios/comentario2.png"></div>
 </div>
 
 
