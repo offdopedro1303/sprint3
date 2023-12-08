@@ -16,7 +16,7 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="../sprint3/img/montanhas/montanha1.jpg" alt="Imagem 1">
 </div>
 
 <div class="texto">

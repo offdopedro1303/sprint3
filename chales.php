@@ -17,7 +17,7 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/saolourenco.webp" alt="Imagem 1">
+            <img src="img/chales/chale1.jpg" alt="Imagem 1">
             <h5 class="card-title">Chácara São Lorenço</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
         </div>
@@ -25,7 +25,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/piscina.webp" alt="Imagem 2">
+            <img src="img/chales/chale2.jpg" alt="Imagem 2">
             <h5 class="card-title">Casa com Piscina Maranhão</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
@@ -33,7 +33,7 @@
 <!-- teste -->
     <div class="card">
         <div class="card-body">
-            <img src="img/sala.webp" alt="Imagem 3">
+            <img src="img/chales/chale3.jpg" alt="Imagem 3">
             <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
         </div>
@@ -43,7 +43,7 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/beliche.webp" alt="Imagem 3">
+            <img src="img/chales/chale4.jpg" alt="Imagem 3">
             <h5 class="card-title">Casa em Suzano</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
         </div>
@@ -51,7 +51,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/cozinha.webp" alt="Imagem 3">
+            <img src="img/chales/chale5.jpg" alt="Imagem 3">
             <h5 class="card-title">Chácara em Caraguatatininga</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
         </div>
@@ -59,7 +59,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/espaco.webp" alt="Imagem 3">
+            <img src="img/chales/chale6.jpg" alt="Imagem 3">
             <h5 class="card-title">Rio de Janeiro House</h5>
             <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
         </div>
@@ -97,7 +97,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <img src="img/chales/chale${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>
