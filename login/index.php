@@ -21,7 +21,6 @@ session_start();
         .hero.is-success {
             background: #F4F0D8;
             color: #544013;
-            border-radius: 40px;
         }
 
         .title.has-text-grey a {
