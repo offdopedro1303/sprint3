@@ -15,11 +15,11 @@
         </a>
       </div>
       <div class="subnav2">
-          <button class="button"><a href="../sprint3/piscinas.php"><img src="../sprint3/img/piscinaslogo.png"></a></button>
-          <button class="button"><a href="../sprint3/beiramar.php"><img src="../sprint3/img/beiramar.png"></a></button>
-          <button class="button"><a href="../sprint3/hoteis.php"><img src="../sprint3/img/hoteis.png"></a></button>
-          <button class="button"><a href="../sprint3/chales.php"><img src="../sprint3/img/chale.png"></a></button>
-          <button class="button"><a href="../sprint3/montanhas.php"><img src="../sprint3/img/montanhas.png"></a></button>
+      <a href="../sprint3/piscinas.php"><button class="button" href="../sprint3/piscinas.php"><img src="../sprint3/img/piscinaslogo.png"></button></a>
+      <a href="../sprint3/beiramar.php"><button class="button"><img src="../sprint3/img/beiramar.png"></button></a>
+      <a href="../sprint3/hoteis.php"><button class="button"><img src="../sprint3/img/hoteis.png"></button></a>
+      <a href="../sprint3/chales.php"><button class="button"><img src="../sprint3/img/chale.png"></button></a>
+      <a href="../sprint3/montanhas.php"><button class="button"><img src="../sprint3/img/montanhas.png"></button></a>
       </div>
     </div>
     <br>
