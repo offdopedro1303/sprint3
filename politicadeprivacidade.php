@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="img/Logo (2).png">
-    <title>Termos de Uso</title>
+    <title>Politica de Privacidade</title>
 </head>
 <style>
     body {
@@ -149,7 +149,7 @@ button:active {
         <h1>Politica de Privacidade</h1>
     </header>
     <div class="content">
-        <h2>1. Aceitação dos Termos de Uso</h2>
+        <h2>1. Aceitação da Politica de Privacidade</h2>
         <p>Ao acessar e utilizar o site [Nome do Site], você concorda em cumprir e ficar vinculado aos seguintes termos e condições de uso. Se você não concorda com esses termos, por favor, não utilize o site.</p>
         <h2>2. Uso do Conteúdo</h2>
 
@@ -189,10 +189,9 @@ O uso do site é por sua conta e risco. Não garantimos que o site estará livre
                 <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
                 <polyline points="1 9 7 14 15 4"></polyline>
             </svg>
-            <a>Li e Aceito todos os termos de uso indicados</a>
+            <a>Li e Aceito todas politicas de privacidade indicados</a>
         </label>
     </div>
-    <a href="login.html">
     <button>
         Submit
     </button>

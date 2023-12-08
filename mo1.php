@@ -20,9 +20,9 @@
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Vista Alpina Lodge<img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>No Vista Alpina Lodge, a fusão de luxo e natureza cria uma experiência memorável. Cada quarto é uma obra-prima de conforto, e cada janela oferece uma moldura para vistas deslumbrantes das montanhas. Desfrute de uma combinação única de sofisticação e simplicidade, em um ambiente que redefine os padrões de hospitalidade, proporcionando uma experiência que transcende expectativas.</p>
 </div>
 <br>
 <br>
@@ -42,7 +42,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="../sprint3/img/comentarios/comentario3.png"><img src="../sprint3/img/comentarios/comentario4.png"></div>
 </div>
 
 
@@ -51,7 +51,7 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/beliche.webp" alt="Imagem 3">
+            <img src="../sprint3/img/montanhas/montanha4.jpg" alt="Imagem 3">
             <h5 class="card-title">Casa em Suzano</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
         </div>
@@ -59,7 +59,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/cozinha.webp" alt="Imagem 3">
+            <img src="../sprint3/img/montanhas/montanha5.jpg" alt="Imagem 3">
             <h5 class="card-title">Chácara em Caraguatatininga</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
         </div>
@@ -67,7 +67,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/espaco.webp" alt="Imagem 3">
+            <img src="../sprint3/img/montanhas/montanha6.jpg" alt="Imagem 3">
             <h5 class="card-title">Rio de Janeiro House</h5>
             <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
         </div>
@@ -105,7 +105,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <img src="../sprint3/img/montanhas/montanha${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

@@ -27,7 +27,9 @@
 
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/mo2.php">
             <img src="../sprint3/img/montanhas/montanha2.jpg" alt="Imagem 2">
+            </a>
             <h5 class="card-title">Estalagem da Serra Branca</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
         </div>
@@ -35,7 +37,9 @@
 <!-- teste -->
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/mo3.php">
             <img src="../sprint3/img/montanhas/montanha3.jpg" alt="Imagem 3">
+            </a>
             <h5 class="card-title">Refúgio Sereno nas Alturas</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
         </div>
@@ -45,7 +49,9 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/mo4.php">
             <img src="../sprint3/img/montanhas/montanha4.jpg" alt="Imagem 3">
+            </a>
             <h5 class="card-title">Chalet da Montanha Mágica</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
         </div>
@@ -53,15 +59,19 @@
 
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/mo5.php">
             <img src="../sprint3/img/montanhas/montanha5.jpg" alt="Imagem 3">
-            <h5 class="card-title">Pousada Celestial</h5>
+            </a>
+            <h5 class="card-title">Pousada Pico Celestial</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
+        <a href="../sprint3/mo6.php">
             <img src="../sprint3/img/montanhas/montanha6.jpg" alt="Imagem 3">
+            </a>
             <h5 class="card-title">Pousada Mirante Estelar</h5>
             <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
         </div>
@@ -99,7 +109,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="../sprint3/img/montanhas/montanha${i+7}.jpg" alt="Nova Imagem ${i+1}">
+            <a href="../sprint3/mo7.php"><img src="../sprint3/img/montanhas/montanha${i+7}.jpg" alt="Nova Imagem ${i+1}"></a>
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>
