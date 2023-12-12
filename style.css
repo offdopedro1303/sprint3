@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #F4F0D8;
+    background-color: #fcf0b5;
 }
 
 
@@ -84,6 +84,8 @@ body {
     transform: rotate(45deg);
 }
 .card-text{
+    position: relative;
+    top: 55px;
     color:#544013;
 }
 .card-title{

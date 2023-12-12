@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logoprin.png">
     
     <meta http-equiv="refresh" content="3; URL='http://127.0.0.1/sprint3/index.php'"/>
 </head>

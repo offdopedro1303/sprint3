@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style2.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="img/logoprin.png">
 </head>
 
  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -105,7 +105,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <img src="img/piscinas/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>
