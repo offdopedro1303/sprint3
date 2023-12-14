@@ -50,7 +50,7 @@
   include_once("templates/header.php");
 ?>
     <h2>Fale Conosco</h2>
-    <form action="seu_script_de_processamento.php" method="post">
+    <form action="faleconosco.php" method="post">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
 
