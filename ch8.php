@@ -53,7 +53,7 @@
 <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/chales/chale2.jpg" alt="Imagem 3">
+            <a href="ch2.php"><img src="img/chales/chale2.jpg" alt="Imagem 3"></a>
             <h5 class="card-title">Chalés Araucária e Manacá</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$200,00</a></p>
         </div>
@@ -61,7 +61,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/chales/chale3.jpg" alt="Imagem 3">
+            <a href="ch3.php"><img src="img/chales/chale3.jpg" alt="Imagem 3"></a>
             <h5 class="card-title">Cabana Nativa</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$419,00</a></p>
         </div>
@@ -69,7 +69,7 @@
 
     <div class="card">
         <div class="card-body">
-            <img src="img/chales/chale4.jpg" alt="Imagem 3">
+            <a href="ch4.php"><img src="img/chales/chale4.jpg" alt="Imagem 3"></a>
             <h5 class="card-title">Chalé Refúgio da Pedra</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$316,00</a></p>
         </div>

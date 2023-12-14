@@ -28,7 +28,7 @@
         margin-top: 70px;
     }
     #cartao button{
-        margin-top: -100px;
+        margin-top: -10px;
     }
     #pix button{
         margin-top: 80px;
@@ -94,7 +94,7 @@ button {
  border-radius: 25px;
  outline: none;
  overflow: hidden;
- color: #FFBC49;;
+ color: #ffffff;
  transition: color 0.3s 0.1s ease-out;
  text-align: center;
 }
