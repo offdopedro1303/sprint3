@@ -37,9 +37,7 @@
         <section class="fotologo">
             <div class="container">
             <img src="img/ararazoo1.png" width="800px"> 
-            <button class="button">
-                <span class="button-content">Saber Mais</span>
-            </button>   
+        
             </div>  
         </section>
         <br>
