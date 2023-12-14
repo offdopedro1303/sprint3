@@ -69,7 +69,7 @@
 
     <div class="card">
         <div class="card-body">
-            <a href="ch2.php"><img src="img/chales/chale4.jpg" alt="Imagem 3"></a>
+            <a href="ch4.php"><img src="img/chales/chale4.jpg" alt="Imagem 3"></a>
             <h5 class="card-title">Chalé Refúgio da Pedra</h5>
             <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$316,00</a></p>
         </div>
