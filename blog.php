@@ -36,8 +36,8 @@
 
     <section>
         <article>
-            <h2>Título do Artigo 1</h2>
-            <p>Conteúdo do artigo 1...</p>
+            <h2>Politica de Segurança do AconCheguei</h2>
+            <p>Garantimos segurança total dos clientes. Antes dos proprietarios colocarem seus imoveis para alugar, nossa equipe faz vistorias nas residencias, para garantir que não há cameras escondidas, ou comodos, que colocam a vida pessoal dos nossos clientes em risco.</p>
         </article>
 
         <article>
