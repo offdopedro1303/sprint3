@@ -7,6 +7,7 @@
                 <h2>Atendimento</h2>
                 <a href="centraldeajuda.php"><p>Central de Ajuda</p></a>
                 <a href="blog.php"><p>Blog</p></a>
+                <a href="faleconosco.php"><p>Fale Conosco</p></a>
             </div>
             <div class="pt2">
                 <h2>Aconcheguei</h2>

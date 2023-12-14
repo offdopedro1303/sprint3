@@ -23,7 +23,7 @@
 <div class="texto">
     <h1>Maravilha nas Dunas Hotel & Spa<img src="img/estrela.png">   4,70 </h1>
     <br>
-    <p>Desfrute de uma atmosfera de serenidade à beira-mar no Riviera Serena Resort. Localizado em uma paisagem costeira pitoresca, nosso resort oferece uma fuga elegante com vistas panorâmicas do oceano. A serenidade das ondas quebrando na praia se une à sofisticação, criando um refúgio à beira-mar que é uma fusão perfeita de tranquilidade e luxo.</p>
+    <p>Descubra uma verdadeira maravilha nas dunas no Maravilha nas Dunas Hotel & Spa. Situado entre paisagens deslumbrantes de dunas, este hotel oferece uma experiência única de luxo e relaxamento. De tratamentos de spa rejuvenescedores a aventuras nas dunas, cada momento é uma jornada de descobertas em um ambiente verdadeiramente espetacular.</p>
 </div>
 <br>
 <br>
