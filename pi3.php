@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style2.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="img/logoprin.png">
 </head>
 
  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -16,13 +16,13 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/piscinas/piscinas2.webp" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Casa com piscina Luxuosa<img src="img/estrela.png">   4,68 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Embarque em uma jornada de requinte e indulgência, onde cada momento se transforma em uma experiência extraordinária. Apresentamos a você uma oportunidade única de alugar uma casa de prestígio, onde o luxo encontra a comodidade, e a elegância se funde com o conforto. Esta casa deslumbrante é mais do que uma simples residência; é um palácio privado que define o padrão de luxo. Com arquitetura imponente, interiores magníficos e uma atenção aos detalhes que supera todas as expectativas, esta casa é um refúgio exclusivo para os apreciadores de sofisticação. Desfrute de momentos de puro prazer na sua piscina luxuosa, onde a água reluz como diamantes sob o sol. Rodeada por paisagismo exuberante e áreas de lounge elegantemente decoradas, a piscina se torna um oásis de serenidade e entretenimento refinado. Cada quarto é uma suíte de pura elegância, oferecendo o aconchego de lençóis macios e a indulgência de amenidades de alta qualidade. Desperte para vistas deslumbrantes e relaxe em quartos que combinam luxo contemporâneo com o calor de um lar acolhedor. Desfrute do conforto moderno com tecnologia de ponta e comodidades de última geração. Da cozinha gourmet totalmente equipada à sala de entretenimento de alta definição, cada espaço foi projetado para elevar sua experiência a novos patamares.</p>
 </div>
 <br>
 <br>
@@ -42,7 +42,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="img/comentarios/comentario1.png"><img src="img/comentarios/comentario2.png"></div>
 </div>
 
 
@@ -105,7 +105,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <img src="img/piscinas/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

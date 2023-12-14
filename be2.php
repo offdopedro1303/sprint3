@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logoprin.png">
 </head>
 
  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -16,13 +17,25 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/beiramar/beiramar2.jpg" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Casa Orla Peruíbe Beach <img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>A Casa Orla Peruíbe Beach é uma residência encantadora situada à beira-mar, na deslumbrante Praia Grande do litoral sul paulista. Com um design elegante e uma localização privilegiada, esta casa oferece uma experiência única de vida à beira-mar, combinando conforto, luxo e proximidade com a natureza.
+
+Ao adentrar a propriedade, você será recepcionado por um jardim bem cuidado e uma fachada convidativa. A arquitetura da casa reflete o charme costeiro, com elementos como varandas espaçosas, grandes janelas e talvez até um terraço panorâmico, proporcionando vistas deslumbrantes do oceano.
+
+O interior da Casa Orla Peruíbe Beach é um deleite para os sentidos. Os espaços são elegantemente decorados, combinando elementos contemporâneos com toques náuticos e materiais naturais. A sala de estar é um ambiente acolhedor, com mobiliário confortável e talvez uma lareira para as noites mais frescas. As grandes janelas ou portas de vidro deslizantes conectam o interior ao exterior, permitindo que a luz natural e a brisa marinha fluam livremente.
+
+A cozinha é equipada com aparelhos modernos e pode apresentar uma ilha central, proporcionando um espaço funcional para a preparação de refeições gourmet. A sala de jantar, estrategicamente posicionada para oferecer vistas para o mar, é perfeita para refeições memoráveis em um ambiente sofisticado.
+
+Os quartos na Casa Orla Peruíbe Beach são verdadeiros refúgios de relaxamento. Os quartos principais podem ter vista para o oceano, com varandas privativas para apreciar o nascer do sol sobre as águas. Os banheiros podem apresentar detalhes luxuosos, como banheiras de hidromassagem ou chuveiros espaçosos.
+
+O quintal da casa é um verdadeiro paraíso à beira-mar. Pode incluir uma piscina com vista para o oceano, áreas de lounge ao ar livre, um espaço para churrasco e até mesmo uma entrada privativa para a praia. É o local ideal para entretenimento ao ar livre, momentos de relaxamento e atividades à beira-mar.
+
+A Casa Orla Peruíbe Beach é mais do que uma residência; é um retiro exclusivo que combina o confort</p>
 </div>
 <br>
 <br>
@@ -42,7 +55,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="../sprint3/img/comentarios/comentario1.png"><img src="../sprint3/img/comentarios/comentario2.png"></div>
 </div>
 
 
@@ -94,9 +107,9 @@
 function showMoreCards() {
     // Informações para os novos cards
     const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
+      { name: "Apê José Menino", rating: "4,50", price: "R$190,00" },
+        { name: "Resort Maragogi", rating: "5,00", price: "R$1369,00" },
+        { name: "Apê no Guaruja", rating: "4,82", price: "R$299,00" }
     ];
 
     // Create new card elements and append them to the card container
@@ -105,7 +118,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+            <img src="../sprint3/img/beiramar/beiramar${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logoprin.png">
 </head>
 
  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -16,13 +17,23 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/beiramar/beiramar3.jpg" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Hotel Copacabana Palace<img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>O Copacabana Palace é um icônico e luxuoso hotel situado à beira da famosa Praia de Copacabana, no Rio de Janeiro, Brasil. Este magnífico estabelecimento é reconhecido mundialmente como um símbolo de elegância e sofisticação, oferecendo uma experiência de hospedagem inigualável.
+        <br>
+
+Arquitetura e Design:
+O Copacabana Palace é uma obra-prima arquitetônica que combina influências clássicas com toques de glamour moderno. Sua fachada imponente e sua entrada majestosa recebem os hóspedes com uma aura de grandeza. O interior é igualmente deslumbrante, apresentando uma decoração luxuosa e detalhes artísticos que refletem o charme carioca.
+<br>
+Acomodações:
+Os quartos e suítes do Copacabana Palace são espaços de elegância e conforto. Cada acomodação é decorada com bom gosto, combinando móveis sofisticados, tecidos luxuosos e obras de arte exclusivas. Muitas das suítes oferecem vistas espetaculares para o mar ou para a cidade, proporcionando uma experiência verdadeiramente memorável.
+<br>
+Restaurantes e Bares:
+O hotel abriga alguns dos melhores restaurantes e bares da cidade. Opções gastronômicas refinadas oferecem desde culinária internacional até pratos da rica culinária brasileira. Os hóspedes podem desfrutar de experiências gastronômicas exclusivas sem sair do próprio hotel.</p>
 </div>
 <br>
 <br>
@@ -41,8 +52,8 @@
     <button id="btnReservar">Reservar</button>
   </div>
 
-<div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+  <div class="comentarios">
+    <div class="com1"><img src="../sprint3/img/comentarios/comentario4.png"><img src="../sprint3/img/comentarios/comentario5.png"></div>
 </div>
 
 
@@ -94,9 +105,9 @@
 function showMoreCards() {
     // Informações para os novos cards
     const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
+        { name: "Apê José Menino", rating: "4,50", price: "R$190,00" },
+        { name: "Resort Maragogi", rating: "5,00", price: "R$1369,00" },
+        { name: "Apê no Guaruja", rating: "4,82", price: "R$299,00" }
     ];
 
     // Create new card elements and append them to the card container
@@ -105,7 +116,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <img src="../sprint3/img/beiramar/beiramar${i+7}.jpg" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style2.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="img/logoprin.png">
 </head>
 
  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -16,13 +16,19 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/piscinas/piscina.webp" alt="Imagem 1">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Casa com piscina Maranhão<img src="img/estrela.png">   4,93 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Descubra o verdadeiro significado de relaxamento e diversão no coração do Maranhão! Apresentamos a você a oportunidade de vivenciar o paraíso em uma casa encantadora com piscina, onde cada momento se torna uma memória inesquecível.
+
+    Experimente o conforto e a elegância desta casa única, projetada para proporcionar a combinação perfeita entre modernidade e charme maranhense. Com ambientes espaçosos e aconchegantes, esta residência é ideal para famílias, grupos de amigos ou até mesmo uma escapadela romântica.
+
+    Relaxe sob o sol do Maranhão na sua própria piscina privativa. Um oásis de tranquilidade espera por você, proporcionando momentos de pura descontração e alegria. Celebre com um mergulho refrescante enquanto desfruta da brisa suave e do cenário deslumbrante que o Maranhão tem a oferecer.
+
+    Situada em uma localização privilegiada, nossa casa está estrategicamente posicionada para que você possa explorar todas as maravilhas do Maranhão. Seja para visitar os Lençóis Maranhenses, conhecer a história de São Luís ou simplesmente aproveitar as praias exuberantes, você estará sempre a poucos passos das melhores atrações.</p>
 </div>
 <br>
 <br>
@@ -42,7 +48,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="img/comentarios/comentario1.png"><img src="img/comentarios/comentario2.png"></div>
 </div>
 
 
@@ -94,9 +100,9 @@
 function showMoreCards() {
     // Informações para os novos cards
     const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
+        { name: "Apê José Menino", rating: "4,50", price: "R$190,00" },
+        { name: "Resort Maragogi", rating: "5,00", price: "R$1369,00" },
+        { name: "Apê no Guaruja", rating: "4,82", price: "R$299,00" }
     ];
 
     // Create new card elements and append them to the card container
@@ -105,7 +111,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+            <img src="img/piscinas/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

@@ -5,7 +5,7 @@
             <div class="pt1">
                 <h2>Atendimento</h2>
                 <a href="centraldeajuda.php"><p>Central de Ajuda</p></a>
-                <p>Blog</p>
+                <a href="blog.php"><p>Blog</p></a>
             </div>
             <div class="pt2">
                 <h2>Aconcheguei</h2>

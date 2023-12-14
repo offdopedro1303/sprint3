@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="img/logoprin.png">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +17,14 @@
 ?>
 
 <div class="container">
-<img src="img/saolourenco.webp" alt="Imagem 1">
+<img src="img/chales/chale1.jpg">
 </div>
 
 <div class="texto">
-    <h1>Chácara Encantadora em São Lourenço<img src="img/estrela.png">   4,47 </h1>
+    <h1>Chalé Portal da Serra<img src="img/estrela.png">   4,47 </h1>
     <br>
-    <p>Bem-vindo à Chácara Serenidade, uma propriedade encantadora disponível para aluguel por temporada em São Lourenço. Rodeada pela exuberante natureza local, esta chácara oferece tranquilidade e conforto para momentos de descanso. Com uma espaçosa área verde, piscina privativa e jardins paisagísticos, é o local ideal para atividades ao ar livre e piqueniques. A casa principal, aconchegante e decorada com elegância, possui varandas com vistas panorâmicas. A chácara ainda oferece um espaço gourmet com churrasqueira, atividades recreativas e está estrategicamente localizada para fácil acesso às atrações locais. Com capacidade para até 10 pessoas, é perfeita para famílias, grupos de amigos ou retiros. Entre em contato para informações sobre reservas e disponibilidade. A Chácara Serenidade promete criar memórias inesquecíveis em meio à serenidade da natureza. Reserve agora e vivencie essa experiência única!</p>
+    <p>Localizado entre Mogi das Cruzes e Santa Isabel, o Chalé Portal da Serra é um refúgio tranquilo cercado por uma exuberante área verde. Com uma piscina convidativa e um lago próximo, este chalé é perfeito para quem busca relaxar e se reconectar com a natureza. A equipe é simpática e prestativa, garantindo uma estadia agradável. À noite, você pode desfrutar de uma fogueira sob o céu estrelado. Além disso, o local é pet-friendly, então seu companheiro de quatro patas também é bem-vindo!
+</p>
 </div>
 <br>
 <br>
@@ -42,7 +44,7 @@
   </div>
 
 <div class="comentarios">
-    <div class="com1"><img src="img/comentario1.png"><img src="img/comentario2.png"></div>
+    <div class="com1"><img src="img/comentarios/comentario1.png"><img src="img/comentarios/comentario2.png"></div>
 </div>
 
 
@@ -51,25 +53,25 @@
   <div class="card-container">
     <div class="card">
         <div class="card-body">
-            <img src="img/beliche.webp" alt="Imagem 3">
-            <h5 class="card-title">Casa em Suzano</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
+            <a href="ch2.php"><img src="img/chales/chale2.jpg" alt="Imagem 3"></a>
+            <h5 class="card-title">Chalés Araucária e Manacá</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$200,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <img src="img/cozinha.webp" alt="Imagem 3">
-            <h5 class="card-title">Chácara em Caraguatatininga</h5>
-            <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
+            <a href="ch3.php"><img src="img/chales/chale3.jpg" alt="Imagem 3"></a>
+            <h5 class="card-title">Cabana Nativa</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$419,00</a></p>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <img src="img/espaco.webp" alt="Imagem 3">
-            <h5 class="card-title">Rio de Janeiro House</h5>
-            <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
+            <a href="ch4.php"><img src="img/chales/chale4.jpg" alt="Imagem 3"></a>
+            <h5 class="card-title">Chalé Refúgio da Pedra</h5>
+            <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$316,00</a></p>
         </div>
     </div>
   </div>
@@ -94,9 +96,9 @@
 function showMoreCards() {
     // Informações para os novos cards
     const newCardInfo = [
-        { name: "Casa Tropical", rating: "4,50", price: "R$190,00" },
-        { name: "Casa Vila Tramontano", rating: "5,00", price: "R$369,00" },
-        { name: "Casa em Cotia", rating: "4,82", price: "R$299,00" }
+        { name: "Chalé da Mantiqueira", rating: "4,50", price: "R$235,00" },
+        { name: "Chalés Montanha Pousada", rating: "5,00", price: "R$358,00" },
+        { name: "Chalé da Montanha ", rating: "4,82", price: "R$387,00" }
     ];
 
     // Create new card elements and append them to the card container
@@ -105,7 +107,7 @@ function showMoreCards() {
         newCard.classList.add("card");
         newCard.innerHTML = `
             <div class="card-body">
-                <img src="img/piscinas${i+1}.webp" alt="Nova Imagem ${i+1}">
+                <a href="ch${i+5}.php"><img src="img/chales/chale${i+5}.jpg" alt="Nova Imagem ${i+1}"></a>
                 <h5 class="card-title">${newCardInfo[i].name}</h5>
                 <p class="card-text"><img src="img/estrela.PNG">${newCardInfo[i].rating} <a>${newCardInfo[i].price}</a></p>
             </div>

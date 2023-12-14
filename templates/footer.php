@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <hr size="2">
         <div class="footer">
             <div class="pt1">
                 <h2>Atendimento</h2>
                 <a href="centraldeajuda.php"><p>Central de Ajuda</p></a>
-                <p>Blog</p>
+                <a href="blog.php"><p>Blog</p></a>
             </div>
             <div class="pt2">
                 <h2>Aconcheguei</h2>
@@ -42,5 +43,12 @@
     a{
         text-decoration:  none;
         color: #544013;
+    }
+    hr{
+        position: relative;
+        top: 10px;
+        border-color: #544013;
+        background-color: #544013;
+        opacity: 25%;
     }
 </style>

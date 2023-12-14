@@ -22,6 +22,7 @@
                 <a href="../montanhas.php"><button class="button2"><img src="../login/img/montanhas.png"></button></a>
             </div>
         </div>
+        <br>
     </header>
     <style>
         html {
