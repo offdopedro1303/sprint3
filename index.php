@@ -14,23 +14,23 @@
         <div class="card-container">
             <div class="card">
                 <div class="card-body">
-                    <img src="img/saolourenco.webp" alt="Imagem 1">
-                    <h5 class="card-title">Chácara São Lorenço</h5>
-                    <p class="card-text"><img src="img/estrela.PNG">4,7 <a>R$200,00</a></p>
+                    <a href="mo2.php"><img src="img/montanhas/montanha2.jpg" alt="Imagem 1"></a>
+                    <h5 class="card-title">Estalagem da Serra Branca</h5>
+                    <p class="card-text"><img src="img/estrela.PNG">4,47 <a>R$419,00</a></p>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
-                    <img src="img/piscinas/piscina.webp" alt="Imagem 2">
+                    <a href="pi1.php"><img src="img/piscinas/piscina.webp" alt="Imagem 2"></a>
                     <h5 class="card-title">Casa com Piscina Maranhão</h5>
                     <p class="card-text"><img src="img/estrela.PNG">4,93 <a>R$419,00</a></p>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
-                    <img src="img/sala.webp" alt="Imagem 3">
-                    <h5 class="card-title">Chalé em Rio Grande da Serra</h5>
-                    <p class="card-text"><img src="img/estrela.PNG">4,87 <a>R$316,00</a></p>
+                    <a href="ch5.php"><img src="img/chales/chale5.jpg" alt="Imagem 3"></a>
+                    <h5 class="card-title">Cabanas horizonte</h5>
+                    <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$215,00</a></p>
                 </div>
             </div>
         </div>
@@ -45,24 +45,24 @@
         <div class="card-container">
             <div class="card">
                 <div class="card-body">
-                    <img src="img/beliche.webp" alt="Imagem 3">
-                    <h5 class="card-title">Casa em Suzano</h5>
+                    <a href="be2.php"><img src="img/beiramar/beiramar2.jpg" alt="Imagem 3"></a>
+                    <h5 class="card-title">Casa Orla Peruíbe Beach </h5>
                     <p class="card-text"><img src="img/estrela.PNG">4,29 <a>R$200,00</a></p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-body">
-                    <img src="img/cozinha.webp" alt="Imagem 3">
-                    <h5 class="card-title">Chácara em Caraguatatininga</h5>
+                    <a href="ch2.php"><img src="img/chales/chale2.jpg" alt="Imagem 3"></a>
+                    <h5 class="card-title">Chalés Araucária e Manacá</h5>
                     <p class="card-text"><img src="img/estrela.PNG">4,57 <a>R$419,00</a></p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-body">
-                    <img src="img/espaco.webp" alt="Imagem 3">
-                    <h5 class="card-title">Rio de Janeiro House</h5>
+                    <a href="ho1.php"><img src="img/hoteis/hotel.jpg" alt="Imagem 3"></a>
+                    <h5 class="card-title">Riviera Serena Resort</h5>
                     <p class="card-text"><img src="img/estrela.PNG">3,87 <a>R$316,00</a></p>
                 </div>
             </div>
@@ -71,24 +71,24 @@
         <div class="card-container">
             <div class="card">
                 <div class="card-body">
-                    <img src="img/banheiro.webp" alt="Imagem 3">
-                    <h5 class="card-title">Julião's Chalé</h5>
+                    <a href="ch4.php"><img src="img/chales/chale4.jpg" alt="Imagem 3"></a>
+                    <h5 class="card-title">Chalé Refúgio da Pedra</h5>
                     <p class="card-text"><img src="img/estrela.PNG">4,19 <a>R$200,00</a></p>
                 </div>
             </div>
         
             <div class="card">
                 <div class="card-body">
-                    <img src="img/quadra.webp" alt="Imagem 3">
-                    <h5 class="card-title">Condomínio no Espírito Santo</h5>
+                    <a href="mo3.php"><img src="img/montanhas/montanha3.jpg" alt="Imagem 3"></a>
+                    <h5 class="card-title">Refúgio Sereno nas Alturas</h5>
                     <p class="card-text"><img src="img/estrela.PNG">5,00 <a>R$419,00</a></p>
                 </div>
             </div>
         
             <div class="card">
                 <div class="card-body">
-                    <img src="img/piscinas/piscinas1.webp" alt="Imagem 3">
-                    <h5 class="card-title">Chácara em Minas Gerais</h5>
+                    <a href="ch9.php"><img src="img/chales/chale9.jpg" alt="Imagem 3"></a>
+                    <h5 class="card-title">Chalés Montanha Pousada</h5>
                     <p class="card-text"><img src="img/estrela.PNG">4,98 <a>R$316,00</a></p>
                 </div>
             </div>
