@@ -46,6 +46,9 @@
 </head>
 
 <body>
+<?php
+  include_once("templates/header.php");
+?>
     <h2>Fale Conosco</h2>
     <form action="seu_script_de_processamento.php" method="post">
         <label for="nome">Nome:</label>
@@ -59,6 +62,12 @@
 
         <button type="submit">Enviar Mensagem</button>
     </form>
+
+    <footer>
+            <?php
+            include_once("templates/footer.php");
+            ?>
+        </footer>
 </body>
 
 </html>
